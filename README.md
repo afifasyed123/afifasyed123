@@ -1,5 +1,5 @@
 <!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=ff007f,ff1493,ff69b4&height=280&section=header&text=Afifa%20Syed%20%E2%9C%A8&fontSize=75&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%20%26%20Data%20Science%20Undergrad%20%E2%80%A2%20Backend%20Developer%20%E2%80%A2%209.62%20CGPA&descSize=20&descAlignY=58&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=ff007f,ff1493,ff69b4&height=260&section=header&text=Afifa%20Syed&fontSize=75&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Artificial%20Intelligence%20%26%20Data%20Science%20%7C%20Java%20%26%20Spring%20Boot%20Developer%20%7C%209.62%20CGPA&descSize=20&descAlignY=58&descAlign=50" width="100%"/>
 
 <!-- Typing Animation -->
 <div align="center">
@@ -37,11 +37,11 @@
 <tr>
   
 <td width="50%" align="center">
-  <img src="https://media.giphy.com/media/unQ3IJU2RG7DO/giphy.gif" width="100%" alt="Girl Coder Aesthetic" />
+  <img src="https://i.giphy.com/du3J3cXyzhj75IOgvA.gif" width="100%" alt="Barbie Aesthetic" />
 </td>
 
 <td width="50%" align="center">
-  <img src="https://media.giphy.com/media/6BRGo1oXWn7Nu/giphy.gif" width="100%" alt="Barbie Pink Laptop Typing" />
+  <img src="https://i.giphy.com/oGD3yIWPUdbri.gif" width="100%" alt="Girl Coder Workspace" />
 </td>
 
 </tr>
@@ -147,15 +147,15 @@ const afifa = {
 
 ### 🎯 LeetCode Badges & Stats
 <div align="center">
-  <a href="https://leetcode.com/u/afifasyed123/">
-    <img src="https://img.shields.io/badge/LeetCode-afifasyed123-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+  <a href="https://leetcode.com/u/afifasyedd/">
+    <img src="https://img.shields.io/badge/LeetCode-afifasyedd-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
   </a>
   &nbsp;
-  <a href="https://leetcode.com/u/afifasyed123/">
+  <a href="https://leetcode.com/u/afifasyedd/">
     <img src="https://img.shields.io/badge/Problem%20Solving-Active-FF1493?style=for-the-badge&logo=codeforces&logoColor=white" alt="Active" />
   </a>
   &nbsp;
-  <a href="https://leetcode.com/u/afifasyed123/">
+  <a href="https://leetcode.com/u/afifasyedd/">
     <img src="https://img.shields.io/badge/Focus-DSA%20%26%20Algorithms-00D9FF?style=for-the-badge&logo=databricks&logoColor=white" alt="DSA" />
   </a>
 </div>
@@ -167,13 +167,13 @@ const afifa = {
   <table align="center" border="0" cellspacing="0" cellpadding="0">
     <tr>
       <td align="center" width="50%">
-        <a href="https://leetcode.com/u/afifasyed123/">
-          <img src="https://leetcard.jacoblin.cool/afifasyed123?theme=unicorn&font=Syne&ext=activity" alt="LeetCode Stats" width="100%" />
+        <a href="https://leetcode.com/u/afifasyedd/">
+          <img src="https://leetcard.jacoblin.cool/afifasyedd?theme=unicorn&font=Syne&ext=activity" alt="LeetCode Stats" width="100%" />
         </a>
       </td>
       <td align="center" width="50%">
-        <a href="https://leetcode.com/u/afifasyed123/">
-          <img src="https://leetcard.jacoblin.cool/afifasyed123?theme=radical&font=Syne&ext=heatmap" alt="LeetCode Heatmap" width="100%" />
+        <a href="https://leetcode.com/u/afifasyedd/">
+          <img src="https://leetcard.jacoblin.cool/afifasyedd?theme=radical&font=Syne&ext=heatmap" alt="LeetCode Heatmap" width="100%" />
         </a>
       </td>
     </tr>
@@ -285,7 +285,9 @@ const afifa = {
 ## 📈 Dynamic Contribution Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=afifasyed123&custom_title=Afifa's%20Contribution%20Graph&bg_color=1a0410&color=ff1493&line=ff007f&point=ff69b4&area_color=ff1493&area=true&hide_border=true" width="100%" alt="Contribution Graph" />
+  <a href="https://github.com/afifasyed123">
+    <img src="https://ghchart.rshah.org/ff1493/afifasyed123" alt="Afifa's GitHub Contributions Chart" width="100%" />
+  </a>
 </p>
 
 ---
@@ -357,8 +359,8 @@ Milestones:
     <img src="https://img.shields.io/badge/LinkedIn-Afifa%20Syed-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://leetcode.com/u/afifasyed123/">
-    <img src="https://img.shields.io/badge/LeetCode-afifasyed123-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
+  <a href="https://leetcode.com/u/afifasyedd/">
+    <img src="https://img.shields.io/badge/LeetCode-afifasyedd-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
   </a>
   &nbsp;&nbsp;
   <a href="mailto:afifasyed06@gmail.com">
