@@ -1,5 +1,5 @@
 <!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=ff69b4,ff1493,ff007f&height=280&section=header&text=Afifa%20Syed&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%20%26%20Data%20Science%20Undergrad%20%E2%80%A2%20Backend%20Engineer%20%E2%80%A2%209.62%20CGPA&descAlignY=56&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=ff007f,ff1493,ff69b4&height=280&section=header&text=Afifa%20Syed%20%E2%9C%A8&fontSize=75&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%20%26%20Data%20Science%20Undergrad%20%E2%80%A2%20Backend%20Developer%20%E2%80%A2%209.62%20CGPA&descSize=20&descAlignY=58&descAlign=50" width="100%"/>
 
 <!-- Typing Animation -->
 <div align="center">
@@ -37,11 +37,11 @@
 <tr>
   
 <td width="50%" align="center">
-  <img src="https://media.giphy.com/media/LmN8OYiY4m0X85K0Zz/giphy.gif" width="100%" alt="Coding Aesthetic" />
+  <img src="https://media.giphy.com/media/unQ3IJU2RG7DO/giphy.gif" width="100%" alt="Girl Coder Aesthetic" />
 </td>
 
 <td width="50%" align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%" alt="Tech Workspace" />
+  <img src="https://media.giphy.com/media/6BRGo1oXWn7Nu/giphy.gif" width="100%" alt="Barbie Pink Laptop Typing" />
 </td>
 
 </tr>
