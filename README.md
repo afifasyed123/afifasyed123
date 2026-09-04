@@ -36,17 +36,6 @@
 <br/>
 
 <table align="center" border="0" cellspacing="0" cellpadding="0">
-<tr>
-  
-<td width="50%" align="center">
-  <img src="https://media.giphy.com/media/jWgFDax9Dmcpi5hiec/giphy.gif" width="100%" alt="Hi Barbie Waving" />
-</td>
-
-<td width="50%" align="center">
-  <img src="https://media.giphy.com/media/108M7gCS1JSoO4/giphy.gif" width="100%" alt="Barbie Laptop Coding" />
-</td>
-
-</tr>
 </table>
 
 <br/>
