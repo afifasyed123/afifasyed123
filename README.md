@@ -3,6 +3,8 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=280&section=header&text=Afifa%20Syed&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%20and%20Data%20Science%20Undergrad%20%7C%20Backend%20Engineer%20%7C%209.62%20CGPA&descAlignY=56&descAlign=50" width="100%" alt="Afifa Syed Banner" />
 </p>
 
+
+
 <!-- Typing Animation -->
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=FF1493&center=true&vCenter=true&random=false&width=750&lines=Artificial+Intelligence+%26+Data+Science+Engineer+%F0%9F%A7%A0;Java+%26+Spring+Boot+Backend+Developer+%E2%9A%A1;9.62+CGPA+at+TSEC+Mumbai+%F0%9F%8E%93;DSA+Enthusiast+%26+LeetCode+Problem+Solver+%F0%9F%92%A1;Building+Scalable+%26+Intelligent+Web+Systems+%F0%9F%9A%80" alt="Typing SVG" />
