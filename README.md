@@ -1,5 +1,7 @@
 <!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=ff007f,ff1493,ff69b4&height=260&section=header&text=Afifa%20Syed&fontSize=75&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Artificial%20Intelligence%20%26%20Data%20Science%20%7C%20Java%20%26%20Spring%20Boot%20Developer%20%7C%209.62%20CGPA&descSize=20&descAlignY=58&descAlign=50" width="100%"/>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=280&section=header&text=Afifa%20Syed&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%20and%20Data%20Science%20Undergrad%20%7C%20Backend%20Engineer%20%7C%209.62%20CGPA&descAlignY=56&descAlign=50" width="100%" alt="Afifa Syed Banner" />
+</p>
 
 <!-- Typing Animation -->
 <div align="center">
@@ -37,11 +39,11 @@
 <tr>
   
 <td width="50%" align="center">
-  <img src="https://i.giphy.com/du3J3cXyzhj75IOgvA.gif" width="100%" alt="Barbie Aesthetic" />
+  <img src="https://media.giphy.com/media/jWgFDax9Dmcpi5hiec/giphy.gif" width="100%" alt="Hi Barbie Waving" />
 </td>
 
 <td width="50%" align="center">
-  <img src="https://i.giphy.com/oGD3yIWPUdbri.gif" width="100%" alt="Girl Coder Workspace" />
+  <img src="https://media.giphy.com/media/108M7gCS1JSoO4/giphy.gif" width="100%" alt="Barbie Laptop Coding" />
 </td>
 
 </tr>
@@ -378,22 +380,28 @@ Milestones:
 
 ---
 
-## 💖 Show Some Love!
+## 💖 **Show Some Love!**
 
 💖 **Drop a star** ⭐ on my repositories if you find my work helpful! 🚀  
 🤝 **Fork** and **contribute** to build innovative systems together!  
-📢 **Connect** with me for AI, data science, and backend engineering opportunities!  
+📢 **Share** my projects with your network!  
+
+Let's build something awesome together. Happy coding! 🎉  
 
 <div align="center">
 
-**🌟 Designed with 💖 by [Afifa Syed](https://github.com/afifasyed123) 🌟**
+**🌟 Made with 💖 by [Afifa Syed](https://github.com/afifasyed123) 🌟**
 
 *"Building scalable applications with clean code, structural logic, and a curiosity for intelligent systems."* 🌸✨
 
 </div>
 
-<br/>
+---
+
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you!</b> 😊</em>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=ff007f,ff1493,ff69b4&height=120&section=footer&text=Thanks%20for%20Visiting!&fontSize=30&fontColor=fff&animation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeAuto&height=120&section=footer&text=Thanks%20for%20Visiting!&fontSize=30&fontColor=fff&animation=fadeIn" />
 </div>
+
+![header](https://user-images.githubusercontent.com/73928744/182041587-527d010a-80d3-4b57-bd99-c2be13c1a516.png)
