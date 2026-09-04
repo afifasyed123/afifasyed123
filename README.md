@@ -6,9 +6,14 @@
 
 <p align="center">
   <a href="https://linkedin.com/in/afifa-syed-41a770260/"><img src="https://img.shields.io/badge/LinkedIn-Afifa%20Syed-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://leetcode.com/u/afifasyed123/"><img src="https://img.shields.io/badge/LeetCode-afifasyed123-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
   <a href="mailto:afifasyed06@gmail.com"><img src="https://img.shields.io/badge/Email-afifasyed06%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://github.com/afifasyed123"><img src="https://img.shields.io/badge/GitHub-afifasyed123-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://github.com/SatyamPandey-07/afifa-syed-portfolio"><img src="https://img.shields.io/badge/Portfolio-Barbie%20World-FF1493?style=for-the-badge&logo=sparkles&logoColor=white" alt="Portfolio" /></a>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=FF1493&center=true&vCenter=true&width=600&lines=Artificial+Intelligence+%26+Data+Science+Engineer;Java+%26+Spring+Boot+Backend+Developer;DSA+Enthusiast+%26+Problem+Solver;Building+Scalable+%26+Intelligent+Web+Systems" alt="Typing SVG" />
 </p>
 
 ---
@@ -111,6 +116,40 @@
 
 ---
 
+### ⚡ LeetCode Problem Solving & Metrics
+
+<p align="center">
+  <a href="https://leetcode.com/u/afifasyed123/">
+    <img src="https://leetcard.jacoblin.cool/afifasyed123?theme=unicorn&font=Syne&ext=activity" alt="Afifa's LeetCode Stats" width="49%" />
+  </a>
+  <a href="https://leetcode.com/u/afifasyed123/">
+    <img src="https://leetcard.jacoblin.cool/afifasyed123?theme=radical&font=Syne&ext=heatmap" alt="Afifa's LeetCode Heatmap" width="49%" />
+  </a>
+</p>
+
+---
+
+### 📈 Dynamic Contribution Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=afifasyed123&bg_color=1a0410&color=ff1493&line=ff007f&point=ff69b4&area=true&hide_border=true" width="100%" alt="Afifa's GitHub Activity Graph" />
+</p>
+
+---
+
+### 📊 GitHub Activity & Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=afifasyed123&show_icons=true&theme=radical&title_color=ff1493&icon_color=ff69b4&text_color=ffffff&bg_color=1a0410&border_color=ff007f" alt="Afifa's GitHub Stats" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=afifasyed123&theme=radical&background=1a0410&ring=ff1493&fire=ff007f&currStreakLabel=ff69b4&border=ff007f" alt="GitHub Streak" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=afifasyed123&layout=compact&theme=radical&title_color=ff1493&text_color=ffffff&bg_color=1a0410&border_color=ff007f" alt="Top Languages" width="48%" />
+</p>
+
+---
+
 ### 📜 Verified Certifications
 
 - 🏆 **Infosys Springboard** — *Data Science & Machine Learning*
@@ -119,21 +158,19 @@
 
 ---
 
-### 📊 GitHub Activity & Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=afifasyed123&show_icons=true&theme=radical&title_color=ff1493&icon_color=ff69b4&text_color=ffffff&bg_color=1a0410&border_color=ff007f" alt="Afifa's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=afifasyed123&layout=compact&theme=radical&title_color=ff1493&text_color=ffffff&bg_color=1a0410&border_color=ff007f" alt="Top Languages" width="48%" />
-</p>
-
----
-
 ### 📬 Let's Connect!
 
-- 💼 **LinkedIn**: [linkedin.com/in/afifa-syed-41a770260](https://www.linkedin.com/in/afifa-syed-41a770260/)
-- ✉️ **Email**: [afifasyed06@gmail.com](mailto:afifasyed06@gmail.com)
-- 🐙 **GitHub**: [github.com/afifasyed123](https://github.com/afifasyed123)
+<p align="center">
+  <a href="https://linkedin.com/in/afifa-syed-41a770260/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://leetcode.com/u/afifasyed123/"><img src="https://img.shields.io/badge/LeetCode-Follow-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
+  <a href="mailto:afifasyed06@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/afifasyed123"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
 
 <p align="center">
   <i>"Building scalable applications with clean code, structural logic, and a curiosity for intelligent systems."</i>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=ff007f,ff1493,ff69b4&height=120&section=footer" width="100%" alt="Footer Banner" />
 </p>
