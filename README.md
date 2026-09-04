@@ -26,8 +26,8 @@
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn" />
   </a>
   &nbsp;
-  <a href="https://github.com/SatyamPandey-07/afifa-syed-portfolio">
-    <img src="https://img.shields.io/badge/Portfolio-Barbie%20World-FF1493?style=for-the-badge&logo=sparkles&logoColor=white&labelColor=000000" alt="Portfolio" />
+  <a href="https://afifa-syed-portfolio.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-afifa--syed--portfolio.vercel.app-FF1493?style=for-the-badge&logo=sparkles&logoColor=white&labelColor=000000" alt="Portfolio" />
   </a>
 </div>
 
@@ -124,10 +124,10 @@ const afifa = {
 <tr>
 <td width="50%" valign="top">
 
-### 💖 [Barbie World Portfolio](https://github.com/SatyamPandey-07/afifa-syed-portfolio)
+### 💖 [Barbie World Portfolio](https://afifa-syed-portfolio.vercel.app/)
 `Next.js` • `TypeScript` • `Tailwind CSS` • `Framer Motion` • `Web Audio`
 * Multi-stage interactive portfolio experience featuring the Dreamhouse progression, dynamic sound FX, and Barbie 2023 aesthetics.
-* **[Live Demo](https://github.com/SatyamPandey-07/afifa-syed-portfolio)**
+* **[Live Demo](https://afifa-syed-portfolio.vercel.app/)**
 
 </td>
 <td width="50%" valign="top">
@@ -369,8 +369,8 @@ Milestones:
     <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/SatyamPandey-07/afifa-syed-portfolio">
-    <img src="https://img.shields.io/badge/Portfolio-Barbie%20World-FF1493?style=for-the-badge&logo=sparkles&logoColor=white" />
+  <a href="https://afifa-syed-portfolio.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-afifa--syed--portfolio.vercel.app-FF1493?style=for-the-badge&logo=sparkles&logoColor=white" />
   </a>
 </p>
 
