@@ -1,176 +1,397 @@
-# Hi there, I'm Afifa Syed! 👋 💖
+<!-- Animated Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=ff69b4,ff1493,ff007f&height=280&section=header&text=Afifa%20Syed&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%20%26%20Data%20Science%20Undergrad%20%E2%80%A2%20Backend%20Engineer%20%E2%80%A2%209.62%20CGPA&descAlignY=56&descAlign=50" width="100%"/>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=ff69b4,ff1493,ff007f&height=200&section=header&text=Afifa%20Syed&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%26%20Data%20Science%20Undergrad%20%C3%97%20Backend%20Developer&descSize=20&descAlignY=60&descAlign=50" alt="Afifa Syed Banner" width="100%" />
-</p>
+<!-- Typing Animation -->
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=FF1493&center=true&vCenter=true&random=false&width=750&lines=Artificial+Intelligence+%26+Data+Science+Engineer+%F0%9F%A7%A0;Java+%26+Spring+Boot+Backend+Developer+%E2%9A%A1;9.62+CGPA+at+TSEC+Mumbai+%F0%9F%8E%93;DSA+Enthusiast+%26+LeetCode+Problem+Solver+%F0%9F%92%A1;Building+Scalable+%26+Intelligent+Web+Systems+%F0%9F%9A%80" alt="Typing SVG" />
+</div>
 
-<p align="center">
-  <a href="https://linkedin.com/in/afifa-syed-41a770260/"><img src="https://img.shields.io/badge/LinkedIn-Afifa%20Syed-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://leetcode.com/u/afifasyed123/"><img src="https://img.shields.io/badge/LeetCode-afifasyed123-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
-  <a href="mailto:afifasyed06@gmail.com"><img src="https://img.shields.io/badge/Email-afifasyed06%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/afifasyed123"><img src="https://img.shields.io/badge/GitHub-afifasyed123-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://github.com/SatyamPandey-07/afifa-syed-portfolio"><img src="https://img.shields.io/badge/Portfolio-Barbie%20World-FF1493?style=for-the-badge&logo=sparkles&logoColor=white" alt="Portfolio" /></a>
-</p>
+<br/>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=FF1493&center=true&vCenter=true&width=600&lines=Artificial+Intelligence+%26+Data+Science+Engineer;Java+%26+Spring+Boot+Backend+Developer;DSA+Enthusiast+%26+Problem+Solver;Building+Scalable+%26+Intelligent+Web+Systems" alt="Typing SVG" />
-</p>
+<!-- Quick GitHub Stats Badges -->
+<div align="center">
+  <a href="https://github.com/afifasyed123">
+    <img src="https://komarev.com/ghpvc/?username=afifasyed123&color=ff1493&style=for-the-badge&label=Views" alt="Views" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/afifasyed123?tab=followers">
+    <img src="https://img.shields.io/github/followers/afifasyed123?logo=github&style=for-the-badge&color=ff69b4&labelColor=000000&label=Followers" alt="Followers" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/afifasyed123?tab=repositories">
+    <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github-star-counter.workers.dev/user/afifasyed123&query=$.stars&label=Stars&style=for-the-badge&color=ff1493&labelColor=000000&logo=github" alt="Total Stars" />
+  </a>
+  &nbsp;
+  <a href="https://linkedin.com/in/afifa-syed-41a770260/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/SatyamPandey-07/afifa-syed-portfolio">
+    <img src="https://img.shields.io/badge/Portfolio-Barbie%20World-FF1493?style=for-the-badge&logo=sparkles&logoColor=white&labelColor=000000" alt="Portfolio" />
+  </a>
+</div>
+
+<br/>
+
+<table align="center" border="0" cellspacing="0" cellpadding="0">
+<tr>
+  
+<td width="50%" align="center">
+  <img src="https://media.giphy.com/media/LmN8OYiY4m0X85K0Zz/giphy.gif" width="100%" alt="Coding Aesthetic" />
+</td>
+
+<td width="50%" align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%" alt="Tech Workspace" />
+</td>
+
+</tr>
+</table>
+
+<br/>
 
 ---
 
-### 👩‍💻 About Me
+## 🎯 About Me
 
-- 🎓 **B.E. in Artificial Intelligence & Data Science** at **Thadomal Shahani Engineering College (TSEC), Mumbai** *(Expected 2028)* — **CGPA: 9.62**
-- 📜 **Diploma in Computer Engineering** from **M.H. Saboo Siddik Polytechnic, Mumbai** — **Grade: 93.60%**
-- ⚡ **Backend Engineering**: Passionate about architecting scalable systems using **Java**, **Spring Boot**, **Hibernate**, and **MySQL**.
-- 🧠 **AI & Machine Learning**: Exploring deep data insights, statistical analysis, and machine learning pipelines with **Python**, **Pandas**, and **Scikit-Learn**.
-- 💡 **Problem Solving**: Strong foundational background in **Data Structures & Algorithms (DSA)** and **Object-Oriented Programming (OOPs)**.
-- 📍 Based in **Mumbai, India**.
+```typescript
+const afifa = {
+    identity: "Afifa Syed",
+    pronouns: "She" | "Her",
+    location: "Mumbai, India 🇮🇳",
+    education: {
+        degree: "B.E. in Artificial Intelligence & Data Science",
+        college: "Thadomal Shahani Engineering College (TSEC '28)",
+        cgpa: "9.62 / 10.00",
+        diploma: "Diploma in Computer Engineering (MHSS Polytechnic) — 93.60%"
+    },
+    
+    currentFocus: [
+        "Scalable Backend Architectures in Java & Spring Boot",
+        "Machine Learning Pipelines, EDA & Statistical Modeling in Python",
+        "Algorithmic Problem Solving (Data Structures & Algorithms)",
+        "Enterprise Database Persistence & RESTful API Engineering"
+    ],
+
+    academicHonors: [
+        "🏆 9.62 CGPA — Artificial Intelligence & Data Science @ TSEC Mumbai",
+        "🥇 93.60% — Diploma in Computer Engineering @ M.H. Saboo Siddik Polytechnic",
+        "📜 Infosys Springboard Certified — Data Science & Machine Learning",
+        "🎖️ Suven Consultants Internship — C++ Programming & Problem Solving",
+        "🌟 NPTEL Certified — Design Thinking: A Primer"
+    ],
+    
+    code: ["Java", "Python", "SQL", "C++", "C", "JavaScript", "HTML/CSS"],
+    
+    technologies: {
+        backend: ["Spring Boot", "Spring Data JPA", "Hibernate", "Servlets & JSP", "JDBC", "REST APIs", "Maven"],
+        aiAndDataScience: ["Scikit-Learn", "Pandas", "NumPy", "TensorFlow", "OpenCV", "Matplotlib", "Jupyter Notebook"],
+        database: ["MySQL", "Relational Schema Design", "Query Optimization"],
+        frontend: ["HTML5", "CSS3", "JavaScript (ES6+)", "React.js", "Thymeleaf", "JSP"],
+        toolsAndPlatforms: ["Git", "GitHub", "IntelliJ IDEA", "VS Code", "Postman", "Linux", "Windows"]
+    },
+    
+    funFact: "I can design normalized SQL database schemas AND train predictive ML classifiers in the same sprint! 💖⚡",
+    askMeAbout: ["Spring Boot", "Java OOPs", "Machine Learning in Python", "DSA", "Relational Databases"],
+    challenge: "Building resilient, elegant, and high-performance software systems with clean architecture"
+};
+```
 
 ---
 
-### 🛠️ Tech Stack & Skills
+## 🏆 Featured Flagship Builds
 
-<table>
-  <tr>
-    <td align="center" width="20%"><strong>Languages</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-      <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="SQL" />
-      <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
-      <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C" />
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Backend &amp; Web</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
-      <img src="https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=flat-square&logo=spring&logoColor=white" alt="Spring Data JPA" />
-      <img src="https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white" alt="Hibernate" />
-      <img src="https://img.shields.io/badge/Servlets_&_JSP-007396?style=flat-square&logo=openjdk&logoColor=white" alt="Servlets & JSP" />
-      <img src="https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
-      <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
-      <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Data Science &amp; AI</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="Scikit-Learn" />
-      <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
-      <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow" />
-      <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
-      <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=python&logoColor=white" alt="Matplotlib" />
-      <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Database &amp; Tools</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
-      <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-      <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-      <img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white" alt="Maven" />
-      <img src="https://img.shields.io/badge/IntelliJ_IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white" alt="IntelliJ" />
-      <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code" />
-    </td>
-  </tr>
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+### 🗂️ [Task Management System](https://github.com/afifasyed123/Task-Management-System)
+`Java` • `Spring Boot` • `Spring Data JPA` • `Hibernate` • `MySQL` • `Thymeleaf`
+* Full-featured MVC enterprise task tracking application with complete CRUD lifecycle.
+* Implements dynamic priority scoring, deadline monitoring, and custom relational queries.
+* **[GitHub Repository](https://github.com/afifasyed123/Task-Management-System)**
+
+</td>
+<td width="50%" valign="top">
+
+### 🎓 [Student Management System](https://github.com/afifasyed123/student-management-system)
+`Java` • `Servlets` • `JSP` • `JDBC` • `MySQL` • `MVC Architecture`
+* Dynamic academic record management platform built with secure database persistence.
+* Features modular Controller-View separation, relational integrity, and automated schema migration.
+* **[GitHub Repository](https://github.com/afifasyed123/student-management-system)**
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 💖 [Barbie World Portfolio](https://github.com/SatyamPandey-07/afifa-syed-portfolio)
+`Next.js` • `TypeScript` • `Tailwind CSS` • `Framer Motion` • `Web Audio`
+* Multi-stage interactive portfolio experience featuring the Dreamhouse progression, dynamic sound FX, and Barbie 2023 aesthetics.
+* **[Live Demo](https://github.com/SatyamPandey-07/afifa-syed-portfolio)**
+
+</td>
+<td width="50%" valign="top">
+
+### 🧠 [Predictive AI & Data Science Suite](https://github.com/afifasyed123)
+`Python` • `Scikit-Learn` • `Pandas` • `NumPy` • `Matplotlib` • `Jupyter`
+* Exploratory data analysis, feature engineering, and predictive classification workflows.
+* Focuses on statistical inference, high-accuracy training, and automated evaluation metrics.
+
+</td>
+</tr>
 </table>
 
 ---
 
-### 🚀 Featured Projects
+## 📊 LeetCode Journey & Problem Solving
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3 align="center">🗂️ Task Management System</h3>
-      <p align="center">
-        <a href="https://github.com/afifasyed123/Task-Management-System">
-          <img src="https://img.shields.io/badge/View_Repository-Task--Management--System-FF1493?style=for-the-badge&logo=github" alt="Task Management System" />
+### 🎯 LeetCode Badges & Stats
+<div align="center">
+  <a href="https://leetcode.com/u/afifasyed123/">
+    <img src="https://img.shields.io/badge/LeetCode-afifasyed123-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+  </a>
+  &nbsp;
+  <a href="https://leetcode.com/u/afifasyed123/">
+    <img src="https://img.shields.io/badge/Problem%20Solving-Active-FF1493?style=for-the-badge&logo=codeforces&logoColor=white" alt="Active" />
+  </a>
+  &nbsp;
+  <a href="https://leetcode.com/u/afifasyed123/">
+    <img src="https://img.shields.io/badge/Focus-DSA%20%26%20Algorithms-00D9FF?style=for-the-badge&logo=databricks&logoColor=white" alt="DSA" />
+  </a>
+</div>
+
+<br/>
+
+### 📈 Dynamic LeetCode Activity & Heatmap
+<div align="center">
+  <table align="center" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td align="center" width="50%">
+        <a href="https://leetcode.com/u/afifasyed123/">
+          <img src="https://leetcard.jacoblin.cool/afifasyed123?theme=unicorn&font=Syne&ext=activity" alt="LeetCode Stats" width="100%" />
         </a>
-      </p>
-      <ul>
-        <li>Full-featured MVC task management application with complete CRUD functionality.</li>
-        <li>Priority scoring, dynamic due-date tracking, and status filtering.</li>
-        <li>Built with <strong>Java</strong>, <strong>Spring Boot</strong>, <strong>Spring Data JPA</strong>, <strong>Hibernate</strong>, <strong>MySQL</strong>, and <strong>Thymeleaf</strong>.</li>
-      </ul>
-    </td>
-    <td width="50%">
-      <h3 align="center">🎓 Student Management System</h3>
-      <p align="center">
-        <a href="https://github.com/afifasyed123/student-management-system">
-          <img src="https://img.shields.io/badge/View_Repository-student--management--system-FF69B4?style=for-the-badge&logo=github" alt="Student Management System" />
+      </td>
+      <td align="center" width="50%">
+        <a href="https://leetcode.com/u/afifasyed123/">
+          <img src="https://leetcard.jacoblin.cool/afifasyed123?theme=radical&font=Syne&ext=heatmap" alt="LeetCode Heatmap" width="100%" />
         </a>
-      </p>
-      <ul>
-        <li>Dynamic student record management system with secure database persistence.</li>
-        <li>Full CRUD lifecycle operations, relational integrity, and modular MVC architecture.</li>
-        <li>Built with <strong>Java</strong>, <strong>Servlets</strong>, <strong>JSP</strong>, <strong>JDBC</strong>, and <strong>MySQL</strong>.</li>
-      </ul>
-    </td>
-  </tr>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<p align="center">
+  <em>"Mastering algorithms one problem at a time — consistency turns complex data structures into second nature."</em> 💡
+</p>
+
+---
+
+## 🛠️ Tech Arsenal
+
+<table align="center" width="100%">
+<tr>
+<td width="50%" valign="top">
+
+<h3 align="center">🔮 Backend & Database</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,spring,hibernate,mysql,postgres,nodejs,express&theme=dark&perline=7" />
+</p>
+<div align="center">
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+</div>
+
+<br/>
+
+<h3 align="center">🎨 Frontend & UI</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,javascript,react,tailwind,bootstrap,vite&theme=dark&perline=7" />
+</p>
+
+</td>
+<td width="50%" valign="top">
+
+<h3 align="center">🤖 AI/ML & Data Science</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,opencv,sklearn&theme=dark&perline=4" />
+  <br/>
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <br/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
+</div>
+
+<br/>
+
+<h3 align="center">🛠️ Tools & Environments</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,idea,vscode,postman,maven,linux,windows&theme=dark&perline=8" />
+</p>
+
+</td>
+</tr>
 </table>
 
 ---
 
-### ⚡ LeetCode Problem Solving & Metrics
+## 📊 GitHub Analytics & Insights
 
+<div align="center">
+
+<table align="center" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center"><img src="https://streak-stats.demolab.com?user=afifasyed123&theme=radical&background=1a0410&ring=ff1493&fire=ff007f&currStreakLabel=ff69b4&border=ff007f" height="180"/></td>
+    <td align="center"><img src="https://github-readme-stats.vercel.app/api?username=afifasyed123&show_icons=true&theme=radical&title_color=ff1493&icon_color=ff69b4&text_color=ffffff&bg_color=1a0410&border_color=ff007f" height="180" /></td>
+  </tr>
+</table>
+
+<br/>
+
+<table align="center" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=afifasyed123&theme=radical" height="180" /></td>
+    <td align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=afifasyed123&layout=compact&theme=radical&title_color=ff1493&text_color=ffffff&bg_color=1a0410&border_color=ff007f" height="180" /></td>
+  </tr>
+</table>
+
+<br/>
+
+<table align="center" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" width="50%"><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=afifasyed123&theme=radical" width="100%"/></td>
+    <td align="center" width="50%"><img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=afifasyed123&theme=radical&utcOffset=5.5" width="100%"/></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=afifasyed123&theme=radical" width="100%" /></td>
+    <td align="center" width="50%"><img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=afifasyed123&theme=radical" width="100%" /></td>
+  </tr>
+</table>
+
+</div>
+
+---
+
+## 🎖️ GitHub Trophies
 <p align="center">
-  <a href="https://leetcode.com/u/afifasyed123/">
-    <img src="https://leetcard.jacoblin.cool/afifasyed123?theme=unicorn&font=Syne&ext=activity" alt="Afifa's LeetCode Stats" width="49%" />
-  </a>
-  <a href="https://leetcode.com/u/afifasyed123/">
-    <img src="https://leetcard.jacoblin.cool/afifasyed123?theme=radical&font=Syne&ext=heatmap" alt="Afifa's LeetCode Heatmap" width="49%" />
-  </a>
+  <img src="https://github-profile-trophy.screw-hand.vercel.app/?username=afifasyed123&theme=radical&no-bg=true&no-frame=true&column=4&margin-w=20&margin-h=20" alt="GitHub Trophies" />
 </p>
 
 ---
 
-### 📈 Dynamic Contribution Graph
+## 📈 Dynamic Contribution Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=afifasyed123&bg_color=1a0410&color=ff1493&line=ff007f&point=ff69b4&area=true&hide_border=true" width="100%" alt="Afifa's GitHub Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=afifasyed123&custom_title=Afifa's%20Contribution%20Graph&bg_color=1a0410&color=ff1493&line=ff007f&point=ff69b4&area_color=ff1493&area=true&hide_border=true" width="100%" alt="Contribution Graph" />
 </p>
 
 ---
 
-### 📊 GitHub Activity & Stats
+## 🎯 Current Focus & Roadmap
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=afifasyed123&show_icons=true&theme=radical&title_color=ff1493&icon_color=ff69b4&text_color=ffffff&bg_color=1a0410&border_color=ff007f" alt="Afifa's GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=afifasyed123&theme=radical&background=1a0410&ring=ff1493&fire=ff007f&currStreakLabel=ff69b4&border=ff007f" alt="GitHub Streak" width="48%" />
-</p>
+<table align="center" width="100%">
+<tr>
+<td width="50%" valign="top">
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=afifasyed123&layout=compact&theme=radical&title_color=ff1493&text_color=ffffff&bg_color=1a0410&border_color=ff007f" alt="Top Languages" width="48%" />
-</p>
+<h3 align="center">🚀 Learning & Specialization Path</h3>
+
+```yaml
+AI & Machine Learning:
+  - Deep Learning architectures (CNNs, Transformers)
+  - Statistical Modeling & Feature Optimization
+  - Model Deployment via FastAPI & Docker
+  
+Backend & Distributed Systems:
+  - Advanced Spring Security & JWT Authentication
+  - Microservices Architecture & Event Messaging
+  - High-Concurrency Database Optimization (MySQL)
+  
+Data Structures & Algorithms:
+  - Advanced Graph & Dynamic Programming Paradigms
+  - LeetCode Daily Challenges & Contest Preparation
+```
+
+</td>
+<td width="50%" valign="top">
+
+<h3 align="center">💡 Active Projects & Goals</h3>
+
+```yaml
+In Progress:
+  - Task Management System v2 (Security & REST APIs)
+  - End-to-End AI Predictive Pipeline in Python
+  - Barbie World Interactive Portfolio Progression
+  
+Upcoming:
+  - Distributed Microservices Backend in Spring Boot
+  - Open Source Contributions in Java & AI tooling
+  
+Milestones:
+  - Build High-Throughput Enterprise Web Services
+  - Excel in Competitive Programming & Technical Hackathons
+  - Collaborate with Engineering Teams Globally
+```
+
+</td>
+</tr>
+</table>
 
 ---
 
-### 📜 Verified Certifications
+## 📜 Verified Certifications & Honors
 
 - 🏆 **Infosys Springboard** — *Data Science & Machine Learning*
 - 🏆 **Suven Consultants & Technology** — *C++ Programming & Problem Solving Internship*
 - 🏆 **NPTEL** — *Design Thinking: A Primer*
+- 🎓 **Academic Excellence**: **9.62 CGPA** (B.E. AI & DS @ TSEC) & **93.60%** (Diploma in Computer Engineering @ MHSS)
 
 ---
 
-### 📬 Let's Connect!
+## 🌍 Connect with Me
 
 <p align="center">
-  <a href="https://linkedin.com/in/afifa-syed-41a770260/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://leetcode.com/u/afifasyed123/"><img src="https://img.shields.io/badge/LeetCode-Follow-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
-  <a href="mailto:afifasyed06@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://github.com/afifasyed123"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/afifa-syed-41a770260/">
+    <img src="https://img.shields.io/badge/LinkedIn-Afifa%20Syed-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://leetcode.com/u/afifasyed123/">
+    <img src="https://img.shields.io/badge/LeetCode-afifasyed123-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:afifasyed06@gmail.com">
+    <img src="https://img.shields.io/badge/Email-afifasyed06%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/afifasyed123">
+    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/SatyamPandey-07/afifa-syed-portfolio">
+    <img src="https://img.shields.io/badge/Portfolio-Barbie%20World-FF1493?style=for-the-badge&logo=sparkles&logoColor=white" />
+  </a>
 </p>
 
-<p align="center">
-  <i>"Building scalable applications with clean code, structural logic, and a curiosity for intelligent systems."</i>
-</p>
+---
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=ff007f,ff1493,ff69b4&height=120&section=footer" width="100%" alt="Footer Banner" />
-</p>
+## 💖 Show Some Love!
+
+💖 **Drop a star** ⭐ on my repositories if you find my work helpful! 🚀  
+🤝 **Fork** and **contribute** to build innovative systems together!  
+📢 **Connect** with me for AI, data science, and backend engineering opportunities!  
+
+<div align="center">
+
+**🌟 Designed with 💖 by [Afifa Syed](https://github.com/afifasyed123) 🌟**
+
+*"Building scalable applications with clean code, structural logic, and a curiosity for intelligent systems."* 🌸✨
+
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=ff007f,ff1493,ff69b4&height=120&section=footer&text=Thanks%20for%20Visiting!&fontSize=30&fontColor=fff&animation=fadeIn" width="100%" />
+</div>
