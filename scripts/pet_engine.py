@@ -435,6 +435,13 @@ def render_svg(state):
     return "\n".join(svg)
 
 
+def make_bar(val, length=10):
+    """Generate a clean text progress bar [████████░░]."""
+    filled = int(round((val / 100.0) * length))
+    filled = max(0, min(length, filled))
+    return "█" * filled + "░" * (length - filled)
+
+
 def generate_readme_snippet(state):
     """Generate the Markdown block for README.md."""
     stats = state["stats"]
@@ -450,19 +457,61 @@ def generate_readme_snippet(state):
     shop_link = f"{issue_base}?title=pet:shop&body=Taking+Bella+on+a+luxury+Barbiecore+shopping+spree!+🛍️💄"
     sleep_link = f"{issue_base}?title=pet:sleep&body=Tucking+Bella+in+for+her+royal+beauty+sleep!+💤👑"
 
+    glamour_bar = make_bar(stats["glamour"])
+    energy_bar = make_bar(stats["energy"])
+    happiness_bar = make_bar(stats["happiness"])
+    snacks_bar = make_bar(stats["snacks"])
+
     snippet = f"""<!-- PET:START -->
-### 🐩🎀 Barbiecore Virtual Pet: Bella The Glam Poodle
+## 🐩🎀 Barbiecore Virtual Pet: Bella The Glam Poodle
+
 <p align="left">
-  <em>Welcome to Bella's Glam Salon! Bella is my autonomous Barbiecore virtual pet living directly on GitHub. Click any interactive button below to pamper her, feed her macarons, take her shopping, or tuck her in for beauty sleep! 💅💖✨</em>
+  <em>Welcome to Bella's Glam Salon! Bella is my autonomous Barbiecore virtual pet living directly on GitHub. Click any interactive pampering button below to give her a bubble bath, feed her macarons, take her shopping, or tuck her in for beauty sleep! 💅💖✨</em>
 </p>
+
+<div align="center">
+
+<table width="100%" border="0">
+<tr>
+<td width="35%" align="center" valign="middle">
+
+```
+     /\\_/\\  
+    ( o.o )  👑
+    =( I )=  🎀
+     /     \\ 
+    (  "  " )
+```
+**🐩 BELLA**  
+*Princess of Barbie World* 💖  
+**Mood:** *"{mood}"* 💅✨  
+*Last pampered by **@{caretaker}***  
+
+</td>
+<td width="65%" valign="middle">
+
+### 📊 Live Pet Vitals (Direct in README)
+
+| Stat | Meter | Score | Status |
+| :--- | :--- | :---: | :---: |
+| 💖 **Glamour** | `[{glamour_bar}]` | **`{stats['glamour']}%`** | ✨ Glowing |
+| ⚡ **Energy** | `[{energy_bar}]` | **`{stats['energy']}%`** | ⚡ Vibrant |
+| ✨ **Happiness** | `[{happiness_bar}]` | **`{stats['happiness']}%`** | 🌸 Pure Joy |
+| 🧁 **Snacks** | `[{snacks_bar}]` | **`{stats['snacks']}%`** | 🍓 Satisfied |
+
+</td>
+</tr>
+</table>
+
+<br/>
 
 <p align="center">
   <img src="./assets/pet-card.svg" width="100%" alt="Bella the Glam Poodle" />
 </p>
 
-<div align="center">
+### 🎮 Pamper Bella (Click an action to play!)
 
-| 💖 **[🛁 Bubble Bath]({bath_link})** | 🧁 **[🧁 Give Macaron]({feed_link})** | 🛍️ **[🛍️ Go Shopping]({shop_link})** | 💤 **[💤 Beauty Sleep]({sleep_link})** |
+| 🛁 **[Bubble Bath]({bath_link})** | 🧁 **[Give Macaron]({feed_link})** | 🛍️ **[Go Shopping]({shop_link})** | 💤 **[Beauty Sleep]({sleep_link})** |
 | :---: | :---: | :---: | :---: |
 | `+25 Glamour` • `+10 Happiness` | `+30 Snacks` • `+5 Energy` | `+25 Happiness` • `+20 Glamour` • `-10 Energy` | `+35 Energy` • `-5 Snacks` |
 
@@ -471,15 +520,15 @@ def generate_readme_snippet(state):
 <a href="{bath_link}">
   <img src="https://img.shields.io/badge/🛁%20Bubble%20Bath-+25%20Glamour-FF1493?style=for-the-badge&logo=sparkles&logoColor=white" alt="Bubble Bath" />
 </a>
-&nbsp;&nbsp;
+&nbsp;
 <a href="{feed_link}">
   <img src="https://img.shields.io/badge/🧁%20Give%20Macaron-+30%20Snacks-FF69B4?style=for-the-badge&logo=cake&logoColor=white" alt="Give Macaron" />
 </a>
-&nbsp;&nbsp;
+&nbsp;
 <a href="{shop_link}">
   <img src="https://img.shields.io/badge/🛍️%20Go%20Shopping-+25%20Happiness-7928CA?style=for-the-badge&logo=shopify&logoColor=white" alt="Go Shopping" />
 </a>
-&nbsp;&nbsp;
+&nbsp;
 <a href="{sleep_link}">
   <img src="https://img.shields.io/badge/💤%20Beauty%20Sleep-+35%20Energy-00F5D4?style=for-the-badge&logo=cloud&logoColor=black" alt="Beauty Sleep" />
 </a>
@@ -488,16 +537,15 @@ def generate_readme_snippet(state):
 
 <br/>
 
-> **👑 Current Mood:** *"{mood}"*  
-> **🎀 Last Pampered by:** **@{caretaker}** with `{action}` | **Total Pamperings:** `{total}` ✨  
-> **💡 How it works:** Click any pampering button above and simply click **"Submit new issue"**! GitHub Actions will immediately update Bella's stats, render her new mood, and thank you with a custom comment! 💕
+> **💡 How it works:** Click any pampering button above to open an issue with the pre-filled command. Hit **"Submit new issue"** and our GitHub Action will immediately update Bella's stats directly in this README and reply to thank you! 💕  
+> **👑 Current Caretaker:** **@{caretaker}** with `{action}` • **Total Treats Given:** `{total}` ✨
 
 <!-- PET:END -->"""
     return snippet
 
 
 def update_readme(state):
-    """Replace pet section or former game section in README.md."""
+    """Place or update pet section directly above ## 📊 GitHub Analytics & Insights in README.md."""
     if not os.path.exists(README_PATH):
         print(f"Error: {README_PATH} not found.")
         return
@@ -511,20 +559,16 @@ def update_readme(state):
         before = content.split("<!-- PET:START -->")[0]
         after = content.split("<!-- PET:END -->")[1]
         updated_content = before + new_section + after
-    elif "<!-- DAILY-GAME:START -->" in content and "<!-- DAILY-GAME:END -->" in content:
-        before = content.split("<!-- DAILY-GAME:START -->")[0]
-        after = content.split("<!-- DAILY-GAME:END -->")[1]
-        updated_content = before + new_section + after
     else:
-        marker = "## 💖 **Show Some Love!**"
-        if marker in content:
-            updated_content = content.replace(marker, f"{new_section}\n\n---\n\n{marker}")
+        target_marker = "## 📊 GitHub Analytics & Insights"
+        if target_marker in content:
+            updated_content = content.replace(target_marker, f"{new_section}\n\n---\n\n{target_marker}")
         else:
             updated_content = content + f"\n\n---\n\n{new_section}\n"
 
     with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(updated_content)
-    print("README.md updated with Barbiecore Pet!")
+    print("README.md updated with Barbiecore Pet above GitHub Analytics!")
 
 
 def main():

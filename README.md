@@ -234,6 +234,88 @@ const afifa = {
 
 ---
 
+<!-- PET:START -->
+## 🐩🎀 Barbiecore Virtual Pet: Bella The Glam Poodle
+
+<p align="left">
+  <em>Welcome to Bella's Glam Salon! Bella is my autonomous Barbiecore virtual pet living directly on GitHub. Click any interactive pampering button below to give her a bubble bath, feed her macarons, take her shopping, or tuck her in for beauty sleep! 💅💖✨</em>
+</p>
+
+<div align="center">
+
+<table width="100%" border="0">
+<tr>
+<td width="35%" align="center" valign="middle">
+
+```
+     /\_/\  
+    ( o.o )  👑
+    =( I )=  🎀
+     /     \ 
+    (  "  " )
+```
+**🐩 BELLA**  
+*Princess of Barbie World* 💖  
+**Mood:** *"Living her absolute best Barbie life! 💅💖✨"* 💅✨  
+*Last pampered by **@BarbieFan***  
+
+</td>
+<td width="65%" valign="middle">
+
+### 📊 Live Pet Vitals (Direct in README)
+
+| Stat | Meter | Score | Status |
+| :--- | :--- | :---: | :---: |
+| 💖 **Glamour** | `[██████████]` | **`97%`** | ✨ Glowing |
+| ⚡ **Energy** | `[███████░░░]` | **`72%`** | ⚡ Vibrant |
+| ✨ **Happiness** | `[██████████]` | **`97%`** | 🌸 Pure Joy |
+| 🧁 **Snacks** | `[████████░░]` | **`75%`** | 🍓 Satisfied |
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<p align="center">
+  <img src="./assets/pet-card.svg" width="100%" alt="Bella the Glam Poodle" />
+</p>
+
+### 🎮 Pamper Bella (Click an action to play!)
+
+| 🛁 **[Bubble Bath](https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:bath&body=Pampering+Bella+with+a+warm+bubble+bath!+🛁💖)** | 🧁 **[Give Macaron](https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:feed&body=Giving+Bella+a+sweet+strawberry+macaron!+🧁✨)** | 🛍️ **[Go Shopping](https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:shop&body=Taking+Bella+on+a+luxury+Barbiecore+shopping+spree!+🛍️💄)** | 💤 **[Beauty Sleep](https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:sleep&body=Tucking+Bella+in+for+her+royal+beauty+sleep!+💤👑)** |
+| :---: | :---: | :---: | :---: |
+| `+25 Glamour` • `+10 Happiness` | `+30 Snacks` • `+5 Energy` | `+25 Happiness` • `+20 Glamour` • `-10 Energy` | `+35 Energy` • `-5 Snacks` |
+
+<br/>
+
+<a href="https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:bath&body=Pampering+Bella+with+a+warm+bubble+bath!+🛁💖">
+  <img src="https://img.shields.io/badge/🛁%20Bubble%20Bath-+25%20Glamour-FF1493?style=for-the-badge&logo=sparkles&logoColor=white" alt="Bubble Bath" />
+</a>
+&nbsp;
+<a href="https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:feed&body=Giving+Bella+a+sweet+strawberry+macaron!+🧁✨">
+  <img src="https://img.shields.io/badge/🧁%20Give%20Macaron-+30%20Snacks-FF69B4?style=for-the-badge&logo=cake&logoColor=white" alt="Give Macaron" />
+</a>
+&nbsp;
+<a href="https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:shop&body=Taking+Bella+on+a+luxury+Barbiecore+shopping+spree!+🛍️💄">
+  <img src="https://img.shields.io/badge/🛍️%20Go%20Shopping-+25%20Happiness-7928CA?style=for-the-badge&logo=shopify&logoColor=white" alt="Go Shopping" />
+</a>
+&nbsp;
+<a href="https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:sleep&body=Tucking+Bella+in+for+her+royal+beauty+sleep!+💤👑">
+  <img src="https://img.shields.io/badge/💤%20Beauty%20Sleep-+35%20Energy-00F5D4?style=for-the-badge&logo=cloud&logoColor=black" alt="Beauty Sleep" />
+</a>
+
+</div>
+
+<br/>
+
+> **💡 How it works:** Click any pampering button above to open an issue with the pre-filled command. Hit **"Submit new issue"** and our GitHub Action will immediately update Bella's stats directly in this README and reply to thank you! 💕  
+> **👑 Current Caretaker:** **@BarbieFan** with `Go Shopping 🛍️` • **Total Treats Given:** `2` ✨
+
+<!-- PET:END -->
+
+---
+
 ## 📊 GitHub Analytics & Insights
 
 <div align="center">
@@ -373,50 +455,6 @@ Milestones:
 </p>
 
 ---
-
-<!-- PET:START -->
-### 🐩🎀 Barbiecore Virtual Pet: Bella The Glam Poodle
-<p align="left">
-  <em>Welcome to Bella's Glam Salon! Bella is my autonomous Barbiecore virtual pet living directly on GitHub. Click any interactive button below to pamper her, feed her macarons, take her shopping, or tuck her in for beauty sleep! 💅💖✨</em>
-</p>
-
-<p align="center">
-  <img src="./assets/pet-card.svg" width="100%" alt="Bella the Glam Poodle" />
-</p>
-
-<div align="center">
-
-| 💖 **[🛁 Bubble Bath](https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:bath&body=Pampering+Bella+with+a+warm+bubble+bath!+🛁💖)** | 🧁 **[🧁 Give Macaron](https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:feed&body=Giving+Bella+a+sweet+strawberry+macaron!+🧁✨)** | 🛍️ **[🛍️ Go Shopping](https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:shop&body=Taking+Bella+on+a+luxury+Barbiecore+shopping+spree!+🛍️💄)** | 💤 **[💤 Beauty Sleep](https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:sleep&body=Tucking+Bella+in+for+her+royal+beauty+sleep!+💤👑)** |
-| :---: | :---: | :---: | :---: |
-| `+25 Glamour` • `+10 Happiness` | `+30 Snacks` • `+5 Energy` | `+25 Happiness` • `+20 Glamour` • `-10 Energy` | `+35 Energy` • `-5 Snacks` |
-
-<br/>
-
-<a href="https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:bath&body=Pampering+Bella+with+a+warm+bubble+bath!+🛁💖">
-  <img src="https://img.shields.io/badge/🛁%20Bubble%20Bath-+25%20Glamour-FF1493?style=for-the-badge&logo=sparkles&logoColor=white" alt="Bubble Bath" />
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:feed&body=Giving+Bella+a+sweet+strawberry+macaron!+🧁✨">
-  <img src="https://img.shields.io/badge/🧁%20Give%20Macaron-+30%20Snacks-FF69B4?style=for-the-badge&logo=cake&logoColor=white" alt="Give Macaron" />
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:shop&body=Taking+Bella+on+a+luxury+Barbiecore+shopping+spree!+🛍️💄">
-  <img src="https://img.shields.io/badge/🛍️%20Go%20Shopping-+25%20Happiness-7928CA?style=for-the-badge&logo=shopify&logoColor=white" alt="Go Shopping" />
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:sleep&body=Tucking+Bella+in+for+her+royal+beauty+sleep!+💤👑">
-  <img src="https://img.shields.io/badge/💤%20Beauty%20Sleep-+35%20Energy-00F5D4?style=for-the-badge&logo=cloud&logoColor=black" alt="Beauty Sleep" />
-</a>
-
-</div>
-
-<br/>
-
-> **👑 Current Mood:** *"Living her absolute best Barbie life! 💅💖✨"*  
-> **🎀 Last Pampered by:** **@BarbieFan** with `Go Shopping 🛍️` | **Total Pamperings:** `2` ✨  
-> **💡 How it works:** Click any pampering button above and simply click **"Submit new issue"**! GitHub Actions will immediately update Bella's stats, render her new mood, and thank you with a custom comment! 💕
-
-<!-- PET:END -->
 
 ---
 
