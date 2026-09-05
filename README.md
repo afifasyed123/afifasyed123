@@ -375,9 +375,9 @@ Milestones:
 ---
 
 <!-- DAILY-GAME:START -->
-### 🕹️ Neon Cyber Pac-Man: Contribution Grid Edition
+### 🕹️ Neon Arcade: Cyber Pac-Man Bot
 <p align="left">
-  <em>An autonomous retro arcade simulation running directly on GitHub! Every <b>24 hours</b>, the AI engine uses <b>BFS Graph Pathfinding</b> to compute the next turns, eat energy pellets, evade cyber-ghosts, and push an automated commit to keep my contribution graph glowing green. 🟢⚡</em>
+  <em>An autonomous retro arcade agent exploring a neon cyber grid in real time. Powered by AI search algorithms, the agent hunts power pellets, clears sectors, and outsmarts cyber ghosts. 👾⚡</em>
 </p>
 
 <p align="center">
@@ -386,14 +386,14 @@ Milestones:
 
 <div align="center">
 
-| 🏆 High Score | ⭐ Current Score | ⚡ Level | 🔥 Active Streak | 🕒 Last Cycle (UTC) |
+| 🏆 High Score | ⭐ Current Score | ⚡ Stage | 🎯 Round | 🕒 Last Updated |
 | :---: | :---: | :---: | :---: | :---: |
-| **`00140`** | **`00140`** | **Stage 1** | **2 Days** | `2026-09-05 08:37:19 UTC` |
+| **`01280`** | **`00280`** | **Stage 1** | **Round #3** | `2026-09-05 08:41 UTC` |
 
 <br/>
 
 <a href="https://github.com/afifasyed123/afifasyed123/actions/workflows/daily_game.yml">
-  <img src="https://img.shields.io/badge/GitHub%20Actions-Run%20Manual%20Turn-FF1493?style=for-the-badge&logo=githubactions&logoColor=white" alt="Run Manual Turn" />
+  <img src="https://img.shields.io/badge/Arcade%20Engine-Simulate%20Turn-FF1493?style=for-the-badge&logo=retroarch&logoColor=white" alt="Simulate Turn" />
 </a>
 &nbsp;&nbsp;
 <a href="https://github.com/afifasyed123/afifasyed123/blob/main/data/game_state.json">
@@ -401,15 +401,15 @@ Milestones:
 </a>
 &nbsp;&nbsp;
 <a href="https://github.com/afifasyed123/afifasyed123/blob/main/scripts/game_engine.py">
-  <img src="https://img.shields.io/badge/Engine-Python%20BFS%20AI-7928CA?style=for-the-badge&logo=python&logoColor=white" alt="Engine Code" />
+  <img src="https://img.shields.io/badge/AI%20Core-Python%20BFS-7928CA?style=for-the-badge&logo=python&logoColor=white" alt="Engine Code" />
 </a>
 
 </div>
 
 <br/>
 
-> **🤖 Latest Turn Telemetry:** `Day 2 Turn: 🤖 BFS traversed 7 nodes | Consolidated 7 pellets (+70 pts). Score: 140.`  
-> **🎮 Game Rules:** Pac-Man moves across a cyber grid powered by Breadth-First Search pathfinding. Eating regular pellets (`.`) rewards `10 pts`, energizers (`*`) reward `50 pts` and trigger frightened ghost mode (`+200 pts`), and cherries (`🍒`) reward `100 pts`. Clearing the entire grid triggers **Level Progression** with bonus score!
+> **🤖 Latest Turn Telemetry:** `Round 3: 🤖 AI Agent navigated Sector 1 | Collected 7 pellets (+70 pts). Score: 280.`  
+> **🎮 Game Rules:** The agent navigates the cyber grid seeking pellets (`.`) for `10 pts`, energizers (`*`) for `50 pts` which activate frightened ghost mode (`+200 pts`), and cherries (`🍒`) for `100 pts`. Clearing a sector advances to the next stage!
 
 <!-- DAILY-GAME:END -->
 

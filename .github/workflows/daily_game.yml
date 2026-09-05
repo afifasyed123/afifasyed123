@@ -1,10 +1,9 @@
-name: Daily Cyber Pac-Man Game & Contribution Sync
+name: Neon Arcade Simulation
 
 on:
   schedule:
-    # Runs every 24 hours at 00:00 UTC (keeps your GitHub streak active daily!)
     - cron: '0 0 * * *'
-  workflow_dispatch: # Allows manual run anytime from GitHub Actions tab
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -15,7 +14,7 @@ permissions:
   contents: write
 
 jobs:
-  run-game-turn:
+  run-simulation:
     runs-on: ubuntu-latest
     steps:
       - name: 📥 Checkout Repository
@@ -28,19 +27,18 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: 🕹️ Simulate Daily Turn & Update Board
+      - name: 🕹️ Run Arcade Agent Simulation
         run: |
           python scripts/game_engine.py
 
-      - name: 🚀 Commit & Push Daily Contribution
+      - name: 🚀 Save Simulation Telemetry
         run: |
           git config --local user.email "afifasyed06@gmail.com"
           git config --local user.name "afifa syed"
           git add data/game_state.json assets/game-board.svg README.md
           
-          # Extract current day streak and score for dynamic commit message
-          DAY_STREAK=$(python -c "import json; d=json.load(open('data/game_state.json')); print(d.get('day_streak', 1))")
+          STAGE=$(python -c "import json; d=json.load(open('data/game_state.json')); print(d.get('level', 1))")
           SCORE=$(python -c "import json; d=json.load(open('data/game_state.json')); print(d.get('score', 0))")
           
-          git commit -m "🕹️ Cyber Pac-Man: Day ${DAY_STREAK} Turn Sync | Score: ${SCORE} [skip ci]" || echo "No changes to commit"
+          git commit -m "🕹️ Neon Arcade: Stage ${STAGE} simulation update | Score: ${SCORE} [skip ci]" || echo "No changes to commit"
           git push
