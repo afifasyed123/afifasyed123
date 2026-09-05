@@ -1,21 +1,21 @@
 {
   "level": 1,
-  "score": 70,
-  "high_score": 70,
-  "day_streak": 1,
-  "last_played": "2026-09-05 08:34:26 UTC",
+  "score": 140,
+  "high_score": 140,
+  "day_streak": 2,
+  "last_played": "2026-09-05 08:37:19 UTC",
   "pacman": {
-    "x": 11,
-    "y": 7,
-    "dir": "DOWN",
+    "x": 15,
+    "y": 8,
+    "dir": "UP",
     "lives": 3
   },
   "ghosts": [
     {
       "name": "Blinky",
       "color": "#FF0055",
-      "x": 11,
-      "y": 6,
+      "x": 15,
+      "y": 9,
       "dir": "RIGHT",
       "scatter": [
         19,
@@ -26,9 +26,9 @@
     {
       "name": "Pinky",
       "color": "#FF1493",
-      "x": 11,
-      "y": 5,
-      "dir": "DOWN",
+      "x": 14,
+      "y": 9,
+      "dir": "RIGHT",
       "scatter": [
         1,
         1
@@ -38,9 +38,9 @@
     {
       "name": "Inky",
       "color": "#00F5D4",
-      "x": 12,
+      "x": 13,
       "y": 5,
-      "dir": "LEFT",
+      "dir": "RIGHT",
       "scatter": [
         19,
         9
@@ -50,9 +50,9 @@
     {
       "name": "Clyde",
       "color": "#FFAA00",
-      "x": 8,
+      "x": 7,
       "y": 5,
-      "dir": "RIGHT",
+      "dir": "LEFT",
       "scatter": [
         1,
         9
@@ -70,12 +70,13 @@
     "###.#.#   G   #.#.###",
     "#.....###   ###.....#",
     "#*# #.# # # # #.# #*#",
-    "#.###.### #.###.###.#",
-    "#........ #.........#",
+    "#.###.### # ### ###.#",
+    "#........ #     ....#",
     "#####################"
   ],
   "pellets_total": 89,
   "recent_logs": [
+    "Day 2 Turn: \ud83e\udd16 BFS traversed 7 nodes | Consolidated 7 pellets (+70 pts). Score: 140.",
     "Day 1 Turn: \ud83e\udd16 BFS traversed 7 nodes | Consolidated 7 pellets (+70 pts). Score: 70.",
     "\ud83d\ude80 Simulation booted! Pac-Man spawned in Neon Cyber Grid.",
     "\ud83c\udfae AI BFS pathfinding initialized with 4 autonomous ghosts."
