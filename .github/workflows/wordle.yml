@@ -1,0 +1,46 @@
+name: Pink Fashion Wordle
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  play-wordle:
+    if: startsWith(github.event.issue.title, 'wordle:')
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 🎀 Evaluate Guess & Update Board
+        run: |
+          python3 .github/scripts/wordle.py "${{ github.event.issue.title }}" "${{ github.actor }}"
+
+      - name: 🚀 Commit Updated Board
+        run: |
+          git config --local user.email "afifasyed06@gmail.com"
+          git config --local user.name "afifa syed"
+          git add README.md .github/wordle_state.json
+          git commit -m "chore: update wordle board [skip ci]" || echo "No changes to commit"
+          git push
+
+      - name: 💌 Reply & Close Issue
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          if [ -f .github/last_wordle_comment.md ]; then
+            gh issue comment "$ISSUE_NUMBER" --body-file .github/last_wordle_comment.md
+          fi
+          gh issue close "$ISSUE_NUMBER" --reason "completed"
