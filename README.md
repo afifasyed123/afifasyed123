@@ -295,7 +295,7 @@ const afifa = {
 
 <!-- Barbiecore Retro Music Player Widget -->
 <p align="center">
-  <a href="https://open.spotify.com/track/YOUR_TRACK_ID" target="_blank" rel="noopener noreferrer">
+  <a href="https://open.spotify.com/track/3KkXRkHbMCARz0aVfEt68P" target="_blank" rel="noopener noreferrer">
     <img src="./assets/music-player.svg" alt="Barbiecore Retro Music Player" width="560" />
   </a>
 </p>
