@@ -292,6 +292,13 @@ const afifa = {
   </a>
 </p>
 
+<!-- Barbiecore Retro Music Player Widget -->
+<p align="center">
+  <a href="https://open.spotify.com/track/YOUR_TRACK_ID" target="_blank" rel="noopener noreferrer">
+    <img src="./assets/music-player.svg" alt="Barbiecore Retro Music Player" width="560" />
+  </a>
+</p>
+
 ---
 
 ## 🎯 Current Focus & Roadmap
