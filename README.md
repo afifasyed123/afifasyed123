@@ -366,7 +366,7 @@ Milestones:
 
 <p align="center">
   <a href="https://linkedin.com/in/afifa-syed-41a770260/">
-    <img src="https://img.shields.io/badge/LinkedIn-Afifa%20Syed-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" />
+    <img src="https://img.shields.io/badge/LinkedIn-Afifa%20Syed-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=pink" />
   </a>
   &nbsp;&nbsp;
   <a href="https://leetcode.com/u/afifasyedd/">
