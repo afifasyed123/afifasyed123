@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 420" width="100%" height="auto">
+
+  <defs>
+    <!-- Background Barbie Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#21081A" />
+      <stop offset="40%" stop-color="#3A0D2E" />
+      <stop offset="80%" stop-color="#24071D" />
+      <stop offset="100%" stop-color="#14020F" />
+    </linearGradient>
+
+    <!-- Border Hot Pink Gradient -->
+    <linearGradient id="barbieBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF1493" />
+      <stop offset="50%" stop-color="#FF69B4" />
+      <stop offset="100%" stop-color="#FFD700" />
+    </linearGradient>
+
+    <!-- Meter Gradients -->
+    <linearGradient id="glamourGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF1493" />
+      <stop offset="100%" stop-color="#FF69B4" />
+    </linearGradient>
+
+    <linearGradient id="energyGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF007F" />
+      <stop offset="100%" stop-color="#FFAA00" />
+    </linearGradient>
+
+    <linearGradient id="happinessGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF69B4" />
+      <stop offset="100%" stop-color="#00F5D4" />
+    </linearGradient>
+
+    <linearGradient id="snacksGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7928CA" />
+      <stop offset="100%" stop-color="#FF1493" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="pinkGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Sparkle Pattern -->
+    <pattern id="sparkleGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="15" cy="15" r="0.8" fill="#FFB6C1" opacity="0.25" />
+    </pattern>
+  </defs>
+
+  <style>
+    .barbie-title { font-family: system-ui, -apple-system, sans-serif; font-weight: 800; letter-spacing: 1px; }
+    .barbie-font { font-family: system-ui, -apple-system, sans-serif; font-weight: 700; }
+    .body-font { font-family: system-ui, -apple-system, sans-serif; font-weight: 600; }
+    
+    @keyframes sparkleRotate {
+      0% { transform: rotate(0deg) scale(0.85); opacity: 0.7; }
+      50% { transform: rotate(180deg) scale(1.15); opacity: 1; }
+      100% { transform: rotate(360deg) scale(0.85); opacity: 0.7; }
+    }
+    .sparkle-icon {
+      transform-origin: center;
+      animation: sparkleRotate 4s infinite linear;
+    }
+
+    @keyframes earBob {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-3px); }
+    }
+    .bouncing-pet {
+      animation: earBob 2.5s infinite ease-in-out;
+    }
+  </style>
+
+  <!-- Card Background -->
+  <rect x="2" y="2" width="856" height="416" rx="22" fill="url(#bgGrad)" stroke="url(#barbieBorder)" stroke-width="2.5" />
+  <rect x="2" y="2" width="856" height="416" rx="22" fill="url(#sparkleGrid)" />
+  <!-- Header -->
+  <g transform="translate(30, 24)">
+    <text x="0" y="22" fill="#FF69B4" class="barbie-title" font-size="22" filter="url(#softGlow)">🎀 BARBIE WORLD VIRTUAL PET</text>
+    <text x="0" y="44" fill="#FFB6C1" class="body-font" font-size="12">Interactive GitHub Profile Companion • Click buttons below to interact!</text>
+    <rect x="550" y="6" width="125" height="34" rx="10" fill="#FF1493" fill-opacity="0.2" stroke="#FF1493" stroke-width="1.2" />
+    <text x="612" y="28" text-anchor="middle" fill="#FF69B4" class="barbie-font" font-size="12">✨ TREATS: 2</text>
+    <rect x="685" y="6" width="125" height="34" rx="10" fill="#FFD700" fill-opacity="0.15" stroke="#FFD700" stroke-width="1.2" />
+    <text x="747" y="28" text-anchor="middle" fill="#FFD700" class="barbie-font" font-size="12">💖 PAMPERED</text>
+  </g>
+  <!-- Pet Portrait & Avatar Section -->
+  <g transform="translate(45, 90)">
+    <rect x="0" y="0" width="230" height="240" rx="18" fill="#1C0617" stroke="#FF69B4" stroke-width="1.5" />
+    <circle cx="115" cy="115" r="95" fill="#FF1493" fill-opacity="0.08" />
+    <g class="bouncing-pet" transform="translate(115, 120)">
+      <ellipse cx="0" cy="55" rx="42" ry="32" fill="#FF85C1" />
+      <ellipse cx="0" cy="45" rx="36" ry="24" fill="#FFB6D9" />
+      <circle cx="-20" cy="48" r="14" fill="#FF99CC" />
+      <circle cx="20" cy="48" r="14" fill="#FF99CC" />
+      <circle cx="0" cy="52" r="16" fill="#FFC2E2" />
+      <rect x="-24" y="24" width="48" height="7" rx="3.5" fill="#FF1493" />
+      <path d="M 0 35 L -7 28 A 4 4 0 0 1 -1 24 L 0 26 L 1 24 A 4 4 0 0 1 7 28 Z" fill="#FFD700" stroke="#FFFFFF" stroke-width="0.8" filter="url(#softGlow)" />
+      <circle cx="0" cy="0" r="38" fill="#FFA3D0" />
+      <ellipse cx="0" cy="10" rx="22" ry="17" fill="#FFD1E8" />
+      <!-- Fluffy Left Ear -->
+      <g transform="translate(-36, -5)">
+        <circle cx="0" cy="0" r="18" fill="#FF69B4" />
+        <circle cx="-5" cy="12" r="14" fill="#FF85C1" />
+        <circle cx="2" cy="22" r="12" fill="#FF99CC" />
+      </g>
+      <!-- Fluffy Right Ear -->
+      <g transform="translate(36, -5)">
+        <circle cx="0" cy="0" r="18" fill="#FF69B4" />
+        <circle cx="5" cy="12" r="14" fill="#FF85C1" />
+        <circle cx="-2" cy="22" r="12" fill="#FF99CC" />
+      </g>
+      <circle cx="0" cy="-35" r="22" fill="#FF85C1" />
+      <circle cx="-10" cy="-32" r="15" fill="#FFA3D0" />
+      <circle cx="10" cy="-32" r="15" fill="#FFA3D0" />
+      <g transform="translate(0, -48)" filter="url(#softGlow)">
+        <path d="M -16 6 L -18 -4 L -9 0 L 0 -10 L 9 0 L 18 -4 L 16 6 Z" fill="#FFD700" stroke="#FFF" stroke-width="0.7" />
+        <circle cx="0" cy="-7" r="2.2" fill="#FF1493" />
+        <circle cx="-9" cy="2" r="1.8" fill="#00F5D4" />
+        <circle cx="9" cy="2" r="1.8" fill="#00F5D4" />
+      </g>
+      <!-- Eyes -->
+      <ellipse cx="-13" cy="2" rx="7" ry="9" fill="#3D002E" />
+      <ellipse cx="13" cy="2" rx="7" ry="9" fill="#3D002E" />
+      <!-- Sparkle Iris -->
+      <circle cx="-13" cy="3" r="5.5" fill="#FF1493" />
+      <circle cx="13" cy="3" r="5.5" fill="#FF1493" />
+      <circle cx="-15" cy="-1" r="2.5" fill="#FFFFFF" />
+      <circle cx="11" cy="-1" r="2.5" fill="#FFFFFF" />
+      <circle cx="-11" cy="5" r="1.2" fill="#FFFFFF" />
+      <circle cx="15" cy="5" r="1.2" fill="#FFFFFF" />
+      <ellipse cx="0" cy="11" rx="4" ry="3" fill="#FF1493" />
+      <path d="M -5 16 Q 0 20 5 16" fill="none" stroke="#660040" stroke-width="1.6" stroke-linecap="round" />
+      <ellipse cx="-20" cy="12" rx="6" ry="3.5" fill="#FF69B4" opacity="0.6" />
+      <ellipse cx="20" cy="12" rx="6" ry="3.5" fill="#FF69B4" opacity="0.6" />
+    </g>
+    <text x="115" y="210" text-anchor="middle" fill="#FFFFFF" class="barbie-font" font-size="15">🐩 BELLA</text>
+    <text x="115" y="226" text-anchor="middle" fill="#FF69B4" class="body-font" font-size="11">Princess of Barbie World</text>
+  </g>
+  <!-- Right Section: Mood Bubble & Meters -->
+  <g transform="translate(305, 90)">
+    <!-- Mood Bubble -->
+    <rect x="0" y="0" width="510" height="42" rx="12" fill="#FF1493" fill-opacity="0.15" stroke="#FF69B4" stroke-width="1.4" />
+    <text x="16" y="26" fill="#FFF0F5" class="barbie-font" font-size="13">💬 "Living her absolute best Barbie life! 💅💖✨"</text>
+    <!-- Stat: 💖 Glamour -->
+    <g transform="translate(0, 62)">
+      <text x="0" y="12" fill="#FFE4E1" class="barbie-font" font-size="13">💖 Glamour</text>
+      <text x="500" y="12" text-anchor="end" fill="#FFD700" class="barbie-font" font-size="13">97%</text>
+      <rect x="0" y="20" width="500" height="16" rx="8" fill="#1A0717" stroke="#4A1038" stroke-width="1.2" />
+      <rect x="1" y="21" width="484" height="14" rx="7" fill="url(#glamourGrad)" filter="url(#softGlow)" />
+    </g>
+    <!-- Stat: ⚡ Energy -->
+    <g transform="translate(0, 108)">
+      <text x="0" y="12" fill="#FFE4E1" class="barbie-font" font-size="13">⚡ Energy</text>
+      <text x="500" y="12" text-anchor="end" fill="#FFD700" class="barbie-font" font-size="13">72%</text>
+      <rect x="0" y="20" width="500" height="16" rx="8" fill="#1A0717" stroke="#4A1038" stroke-width="1.2" />
+      <rect x="1" y="21" width="359" height="14" rx="7" fill="url(#energyGrad)" filter="url(#softGlow)" />
+    </g>
+    <!-- Stat: ✨ Happiness -->
+    <g transform="translate(0, 154)">
+      <text x="0" y="12" fill="#FFE4E1" class="barbie-font" font-size="13">✨ Happiness</text>
+      <text x="500" y="12" text-anchor="end" fill="#FFD700" class="barbie-font" font-size="13">97%</text>
+      <rect x="0" y="20" width="500" height="16" rx="8" fill="#1A0717" stroke="#4A1038" stroke-width="1.2" />
+      <rect x="1" y="21" width="484" height="14" rx="7" fill="url(#happinessGrad)" filter="url(#softGlow)" />
+    </g>
+    <!-- Stat: 🧁 Snacks -->
+    <g transform="translate(0, 200)">
+      <text x="0" y="12" fill="#FFE4E1" class="barbie-font" font-size="13">🧁 Snacks</text>
+      <text x="500" y="12" text-anchor="end" fill="#FFD700" class="barbie-font" font-size="13">75%</text>
+      <rect x="0" y="20" width="500" height="16" rx="8" fill="#1A0717" stroke="#4A1038" stroke-width="1.2" />
+      <rect x="1" y="21" width="374" height="14" rx="7" fill="url(#snacksGrad)" filter="url(#softGlow)" />
+    </g>
+  </g>
+  <!-- Footer Bar -->
+  <g transform="translate(30, 388)">
+    <rect x="0" y="0" width="800" height="24" rx="6" fill="#1C0617" stroke="#FF69B4" stroke-width="0.8" />
+    <text x="14" y="16" fill="#FFB6C1" class="body-font" font-size="11">👑 Last Pampered by: <tspan fill="#FF69B4" font-weight="700">@BarbieFan</tspan> with Go Shopping 🛍️ 💕</text>
+    <text x="786" y="16" text-anchor="end" fill="#FFD700" class="body-font" font-size="10.5">Barbiecore Companion Engine 🎀</text>
+  </g>
+</svg>

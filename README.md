@@ -374,44 +374,49 @@ Milestones:
 
 ---
 
-<!-- DAILY-GAME:START -->
-### 🕹️ Neon Arcade: Cyber Pac-Man Bot
+<!-- PET:START -->
+### 🐩🎀 Barbiecore Virtual Pet: Bella The Glam Poodle
 <p align="left">
-  <em>An autonomous retro arcade agent exploring a neon cyber grid in real time. Powered by AI search algorithms, the agent hunts power pellets, clears sectors, and outsmarts cyber ghosts. 👾⚡</em>
+  <em>Welcome to Bella's Glam Salon! Bella is my autonomous Barbiecore virtual pet living directly on GitHub. Click any interactive button below to pamper her, feed her macarons, take her shopping, or tuck her in for beauty sleep! 💅💖✨</em>
 </p>
 
 <p align="center">
-  <img src="./assets/game-board.svg" width="100%" alt="Neon Cyber Pac-Man Board" />
+  <img src="./assets/pet-card.svg" width="100%" alt="Bella the Glam Poodle" />
 </p>
 
 <div align="center">
 
-| 🏆 High Score | ⭐ Current Score | ⚡ Stage | 🎯 Round | 🕒 Last Updated |
-| :---: | :---: | :---: | :---: | :---: |
-| **`01280`** | **`00350`** | **Stage 1** | **Round #4** | `2026-09-05 08:42 UTC` |
+| 💖 **[🛁 Bubble Bath](https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:bath&body=Pampering+Bella+with+a+warm+bubble+bath!+🛁💖)** | 🧁 **[🧁 Give Macaron](https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:feed&body=Giving+Bella+a+sweet+strawberry+macaron!+🧁✨)** | 🛍️ **[🛍️ Go Shopping](https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:shop&body=Taking+Bella+on+a+luxury+Barbiecore+shopping+spree!+🛍️💄)** | 💤 **[💤 Beauty Sleep](https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:sleep&body=Tucking+Bella+in+for+her+royal+beauty+sleep!+💤👑)** |
+| :---: | :---: | :---: | :---: |
+| `+25 Glamour` • `+10 Happiness` | `+30 Snacks` • `+5 Energy` | `+25 Happiness` • `+20 Glamour` • `-10 Energy` | `+35 Energy` • `-5 Snacks` |
 
 <br/>
 
-<a href="https://github.com/afifasyed123/afifasyed123/actions/workflows/daily_game.yml">
-  <img src="https://img.shields.io/badge/Arcade%20Engine-Simulate%20Turn-FF1493?style=for-the-badge&logo=retroarch&logoColor=white" alt="Simulate Turn" />
+<a href="https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:bath&body=Pampering+Bella+with+a+warm+bubble+bath!+🛁💖">
+  <img src="https://img.shields.io/badge/🛁%20Bubble%20Bath-+25%20Glamour-FF1493?style=for-the-badge&logo=sparkles&logoColor=white" alt="Bubble Bath" />
 </a>
 &nbsp;&nbsp;
-<a href="https://github.com/afifasyed123/afifasyed123/blob/main/data/game_state.json">
-  <img src="https://img.shields.io/badge/Telemetry-game__state.json-00F5D4?style=for-the-badge&logo=json&logoColor=black" alt="View State" />
+<a href="https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:feed&body=Giving+Bella+a+sweet+strawberry+macaron!+🧁✨">
+  <img src="https://img.shields.io/badge/🧁%20Give%20Macaron-+30%20Snacks-FF69B4?style=for-the-badge&logo=cake&logoColor=white" alt="Give Macaron" />
 </a>
 &nbsp;&nbsp;
-<a href="https://github.com/afifasyed123/afifasyed123/blob/main/scripts/game_engine.py">
-  <img src="https://img.shields.io/badge/AI%20Core-Python%20BFS-7928CA?style=for-the-badge&logo=python&logoColor=white" alt="Engine Code" />
+<a href="https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:shop&body=Taking+Bella+on+a+luxury+Barbiecore+shopping+spree!+🛍️💄">
+  <img src="https://img.shields.io/badge/🛍️%20Go%20Shopping-+25%20Happiness-7928CA?style=for-the-badge&logo=shopify&logoColor=white" alt="Go Shopping" />
+</a>
+&nbsp;&nbsp;
+<a href="https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:sleep&body=Tucking+Bella+in+for+her+royal+beauty+sleep!+💤👑">
+  <img src="https://img.shields.io/badge/💤%20Beauty%20Sleep-+35%20Energy-00F5D4?style=for-the-badge&logo=cloud&logoColor=black" alt="Beauty Sleep" />
 </a>
 
 </div>
 
 <br/>
 
-> **🤖 Latest Turn Telemetry:** `Round 4: 🤖 AI Agent navigated Sector 1 | Collected 7 pellets (+70 pts). Score: 350.`  
-> **🎮 Game Rules:** The agent navigates the cyber grid seeking pellets (`.`) for `10 pts`, energizers (`*`) for `50 pts` which activate frightened ghost mode (`+200 pts`), and cherries (`🍒`) for `100 pts`. Clearing a sector advances to the next stage!
+> **👑 Current Mood:** *"Living her absolute best Barbie life! 💅💖✨"*  
+> **🎀 Last Pampered by:** **@BarbieFan** with `Go Shopping 🛍️` | **Total Pamperings:** `2` ✨  
+> **💡 How it works:** Click any pampering button above and simply click **"Submit new issue"**! GitHub Actions will immediately update Bella's stats, render her new mood, and thank you with a custom comment! 💕
 
-<!-- DAILY-GAME:END -->
+<!-- PET:END -->
 
 ---
 
