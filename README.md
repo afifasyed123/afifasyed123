@@ -240,6 +240,7 @@ const afifa = {
     <img alt="Pastel pink contribution snake" src="https://raw.githubusercontent.com/afifasyed123/afifasyed123/output/pastel-pink-snake.svg">
   </picture>
 </div>
+
 ## 📊 GitHub Analytics & Insights
 
 <div align="center">
