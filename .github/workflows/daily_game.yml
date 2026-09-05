@@ -1,0 +1,46 @@
+name: Daily Cyber Pac-Man Game & Contribution Sync
+
+on:
+  schedule:
+    # Runs every 24 hours at 00:00 UTC (keeps your GitHub streak active daily!)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows manual run anytime from GitHub Actions tab
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/game_engine.py'
+
+permissions:
+  contents: write
+
+jobs:
+  run-game-turn:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 🕹️ Simulate Daily Turn & Update Board
+        run: |
+          python scripts/game_engine.py
+
+      - name: 🚀 Commit & Push Daily Contribution
+        run: |
+          git config --local user.email "afifasyed06@gmail.com"
+          git config --local user.name "afifa syed"
+          git add data/game_state.json assets/game-board.svg README.md
+          
+          # Extract current day streak and score for dynamic commit message
+          DAY_STREAK=$(python -c "import json; d=json.load(open('data/game_state.json')); print(d.get('day_streak', 1))")
+          SCORE=$(python -c "import json; d=json.load(open('data/game_state.json')); print(d.get('score', 0))")
+          
+          git commit -m "🕹️ Cyber Pac-Man: Day ${DAY_STREAK} Turn Sync | Score: ${SCORE} [skip ci]" || echo "No changes to commit"
+          git push

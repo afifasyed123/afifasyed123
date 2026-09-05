@@ -374,6 +374,47 @@ Milestones:
 
 ---
 
+<!-- DAILY-GAME:START -->
+### 🕹️ Neon Cyber Pac-Man: Contribution Grid Edition
+<p align="left">
+  <em>An autonomous retro arcade simulation running directly on GitHub! Every <b>24 hours</b>, the AI engine uses <b>BFS Graph Pathfinding</b> to compute the next turns, eat energy pellets, evade cyber-ghosts, and push an automated commit to keep my contribution graph glowing green. 🟢⚡</em>
+</p>
+
+<p align="center">
+  <img src="./assets/game-board.svg" width="100%" alt="Neon Cyber Pac-Man Board" />
+</p>
+
+<div align="center">
+
+| 🏆 High Score | ⭐ Current Score | ⚡ Level | 🔥 Active Streak | 🕒 Last Cycle (UTC) |
+| :---: | :---: | :---: | :---: | :---: |
+| **`00070`** | **`00070`** | **Stage 1** | **1 Days** | `2026-09-05 08:34:26 UTC` |
+
+<br/>
+
+<a href="https://github.com/afifasyed123/afifasyed123/actions/workflows/daily_game.yml">
+  <img src="https://img.shields.io/badge/GitHub%20Actions-Run%20Manual%20Turn-FF1493?style=for-the-badge&logo=githubactions&logoColor=white" alt="Run Manual Turn" />
+</a>
+&nbsp;&nbsp;
+<a href="https://github.com/afifasyed123/afifasyed123/blob/main/data/game_state.json">
+  <img src="https://img.shields.io/badge/Telemetry-game__state.json-00F5D4?style=for-the-badge&logo=json&logoColor=black" alt="View State" />
+</a>
+&nbsp;&nbsp;
+<a href="https://github.com/afifasyed123/afifasyed123/blob/main/scripts/game_engine.py">
+  <img src="https://img.shields.io/badge/Engine-Python%20BFS%20AI-7928CA?style=for-the-badge&logo=python&logoColor=white" alt="Engine Code" />
+</a>
+
+</div>
+
+<br/>
+
+> **🤖 Latest Turn Telemetry:** `Day 1 Turn: 🤖 BFS traversed 7 nodes | Consolidated 7 pellets (+70 pts). Score: 70.`  
+> **🎮 Game Rules:** Pac-Man moves across a cyber grid powered by Breadth-First Search pathfinding. Eating regular pellets (`.`) rewards `10 pts`, energizers (`*`) reward `50 pts` and trigger frightened ghost mode (`+200 pts`), and cherries (`🍒`) reward `100 pts`. Clearing the entire grid triggers **Level Progression** with bonus score!
+
+<!-- DAILY-GAME:END -->
+
+---
+
 ## 💖 **Show Some Love!**
 
 💖 **Drop a star** ⭐ on my repositories if you find my work helpful! 🚀  
