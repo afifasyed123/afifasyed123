@@ -23,7 +23,7 @@ jobs:
             dist/pastel-pink-snake.svg?color_snake=#f472b6&color_dots=#fdf2f8,#fce7f3,#fbcfe8,#f472b6,#db2777
 
       - name: Push to Output Branch
-        uses: crazy-max/ghaction-github-pages@v3.5.0
+        uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
           build_dir: dist
