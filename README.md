@@ -294,11 +294,11 @@ const afifa = {
 </p>
 
 <!-- Barbiecore Retro Music Player Widget -->
-<p align="center">
-  <a href="https://open.spotify.com/track/3KkXRkHbMCARz0aVfEt68P" target="_blank" rel="noopener noreferrer">
-    <img src="./assets/music-player.svg" alt="Barbiecore Retro Music Player" width="560" />
+<div align="center">
+  <a href="https://afifasyed123.github.io/afifasyed123/player/" target="_blank">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&pause=1000&color=F472B6&background=18181B&center=true&vCenter=true&width=450&height=70&lines=%E2%96%B6%EF%B8%8F+Now+Playing%3A+Sunflower+%E2%99%A1;%E2%99%AA+%E2%94%80%E2%94%80%E2%94%80%E2%97%8F%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80+1%3A12+%2F+2%3A38;%E2%9C%A7+Click+to+listen+along+with+me+%E2%9C%A7" alt="Sunflower Player" />
   </a>
-</p>
+</div>
 
 ---
 

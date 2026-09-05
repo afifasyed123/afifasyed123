@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Now Playing 🎀</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: #0f1117;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Courier New', monospace;
+      color: #fce7f3;
+    }
+    .card {
+      background: #18181b;
+      border: 2px solid #f472b6;
+      border-radius: 20px;
+      padding: 32px;
+      text-align: center;
+      box-shadow: 0 0 25px rgba(244, 114, 182, 0.25);
+      width: 320px;
+    }
+    .disc {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      border: 4px dashed #f472b6;
+      margin: 0 auto 20px auto;
+      animation: spin 4s linear infinite;
+    }
+    @keyframes spin {
+      100% { transform: rotate(360deg); }
+    }
+    h2 { font-size: 1.1rem; color: #f472b6; margin-bottom: 6px; }
+    p { font-size: 0.85rem; color: #fda4af; margin-bottom: 20px; }
+    iframe {
+      border-radius: 12px;
+      width: 100%;
+      height: 80px;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="disc"></div>
+    <h2>Sunflower ♡</h2>
+    <p>Post Malone & Swae Lee</p>
+    <!-- Spotify clean mini embed -->
+    <iframe 
+      src="https://open.spotify.com/embed/track/3KkXRkHbMCARz0aVfEt68P?utm_source=generator&theme=0" 
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+      loading="lazy">
+    </iframe>
+  </div>
+</body>
+</html>
