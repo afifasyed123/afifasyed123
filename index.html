@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barbiecore Arcade: Fashion Wordle &amp; Glam Pet</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #120311;
+      --bg-card: #20061C;
+      --bg-inner: #2E0A28;
+      --pink-primary: #FF1493;
+      --pink-hot: #FF69B4;
+      --pink-light: #FFB6C1;
+      --pink-blush: #FFE4E1;
+      --gold: #FFD700;
+      --cyan: #00F5D4;
+      --text: #FFF0F5;
+      --border: #FF1493;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      user-select: none;
+    }
+
+    body {
+      background: radial-gradient(circle at 50% 10%, #360B2C, var(--bg-dark) 80%);
+      color: var(--text);
+      font-family: 'Outfit', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 15px;
+      overflow-x: hidden;
+    }
+
+    /* Top Navigation Tabs */
+    .header-title {
+      font-family: 'Syne', sans-serif;
+      font-size: 2.2rem;
+      color: var(--pink-hot);
+      text-shadow: 0 0 15px rgba(255, 20, 147, 0.6);
+      margin-bottom: 6px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .header-sub {
+      color: var(--pink-light);
+      font-size: 0.95rem;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .tabs {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 25px;
+      background: rgba(46, 10, 40, 0.7);
+      padding: 6px;
+      border-radius: 50px;
+      border: 1.5px solid var(--pink-primary);
+    }
+
+    .tab-btn {
+      background: transparent;
+      border: none;
+      color: var(--pink-light);
+      font-family: 'Outfit', sans-serif;
+      font-weight: 700;
+      font-size: 1rem;
+      padding: 10px 24px;
+      border-radius: 40px;
+      cursor: pointer;
+      transition: all 0.25s ease;
+    }
+
+    .tab-btn.active {
+      background: linear-gradient(135deg, var(--pink-primary), var(--pink-hot));
+      color: #FFF;
+      box-shadow: 0 4px 15px rgba(255, 20, 147, 0.5);
+    }
+
+    .game-view {
+      display: none;
+      width: 100%;
+      max-width: 540px;
+      flex-direction: column;
+      align-items: center;
+      animation: fadeIn 0.3s ease;
+    }
+
+    .game-view.active {
+      display: flex;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* =======================================================
+       WORDLE STYLES
+       ======================================================= */
+    .wordle-status {
+      font-weight: 700;
+      font-size: 1.1rem;
+      margin-bottom: 15px;
+      color: var(--gold);
+      min-height: 28px;
+      text-align: center;
+    }
+
+    .wordle-grid {
+      display: grid;
+      grid-template-rows: repeat(6, 1fr);
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .wordle-row {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 8px;
+    }
+
+    .wordle-tile {
+      width: 58px;
+      height: 58px;
+      border: 2px solid #5A164B;
+      background: #1C0617;
+      color: #FFF;
+      font-family: 'Syne', sans-serif;
+      font-size: 1.8rem;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 12px;
+      text-transform: uppercase;
+      transition: all 0.2s ease;
+    }
+
+    .wordle-tile.pop {
+      transform: scale(1.08);
+      border-color: var(--pink-hot);
+    }
+
+    .wordle-tile.flip {
+      animation: flipTile 0.5s ease forwards;
+    }
+
+    @keyframes flipTile {
+      0% { transform: rotateX(0); }
+      50% { transform: rotateX(90deg); }
+      100% { transform: rotateX(0); }
+    }
+
+    .wordle-tile.correct {
+      background: linear-gradient(135deg, #FF1493, #FF007F) !important;
+      border-color: #FF69B4 !important;
+      box-shadow: 0 0 12px rgba(255, 20, 147, 0.6);
+    }
+
+    .wordle-tile.present {
+      background: linear-gradient(135deg, #7928CA, #FF69B4) !important;
+      border-color: #D946EF !important;
+    }
+
+    .wordle-tile.absent {
+      background: #2D1026 !important;
+      border-color: #4A163E !important;
+      color: #8C6A84 !important;
+    }
+
+    /* Virtual Keyboard */
+    .keyboard {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      width: 100%;
+      max-width: 500px;
+      margin-bottom: 20px;
+    }
+
+    .kb-row {
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+    }
+
+    .key-btn {
+      background: #2E0B27;
+      border: 1px solid #5C154E;
+      color: var(--text);
+      font-family: 'Outfit', sans-serif;
+      font-weight: 700;
+      font-size: 0.95rem;
+      padding: 12px 0;
+      flex: 1;
+      min-width: 32px;
+      max-width: 44px;
+      border-radius: 8px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.15s ease;
+    }
+
+    .key-btn:active {
+      transform: scale(0.92);
+    }
+
+    .key-btn.wide {
+      flex: 1.6;
+      max-width: 65px;
+      font-size: 0.85rem;
+      background: #460E3B;
+    }
+
+    .key-btn.correct { background: #FF1493 !important; color: #FFF; border-color: #FF69B4; }
+    .key-btn.present { background: #7928CA !important; color: #FFF; border-color: #D946EF; }
+    .key-btn.absent { background: #1C0517 !important; color: #6E4968; border-color: #330B2A; }
+
+    .wordle-controls {
+      display: flex;
+      gap: 12px;
+    }
+
+    .action-btn {
+      background: linear-gradient(135deg, var(--pink-primary), var(--pink-hot));
+      border: none;
+      color: #FFF;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 700;
+      font-size: 0.95rem;
+      padding: 10px 22px;
+      border-radius: 25px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      box-shadow: 0 4px 15px rgba(255, 20, 147, 0.4);
+      transition: all 0.2s ease;
+    }
+
+    .action-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(255, 20, 147, 0.6);
+    }
+
+    /* =======================================================
+       PET STYLES
+       ======================================================= */
+    .pet-card {
+      background: linear-gradient(145deg, #24071D, #3D0C30);
+      border: 2px solid var(--pink-primary);
+      border-radius: 24px;
+      padding: 24px 20px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5), 0 0 20px rgba(255, 20, 147, 0.2);
+    }
+
+    .poodle-avatar {
+      width: 160px;
+      height: 160px;
+      margin-bottom: 12px;
+      filter: drop-shadow(0 5px 15px rgba(255, 20, 147, 0.4));
+      animation: bob 3s infinite ease-in-out;
+    }
+
+    @keyframes bob {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-6px); }
+    }
+
+    .pet-name {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.6rem;
+      color: #FFF;
+      margin-bottom: 4px;
+    }
+
+    .pet-title {
+      color: var(--pink-hot);
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+
+    .mood-bubble {
+      background: rgba(255, 20, 147, 0.15);
+      border: 1.5px solid var(--pink-hot);
+      padding: 10px 18px;
+      border-radius: 16px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #FFF;
+      margin-bottom: 22px;
+      text-align: center;
+      width: 100%;
+    }
+
+    .meters-container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin-bottom: 25px;
+    }
+
+    .meter-row {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .meter-header {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 700;
+      font-size: 0.9rem;
+    }
+
+    .meter-bar-bg {
+      width: 100%;
+      height: 14px;
+      background: #180313;
+      border: 1px solid #4D0E3D;
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .meter-bar-fill {
+      height: 100%;
+      border-radius: 10px;
+      transition: width 0.5s ease;
+      position: relative;
+    }
+
+    .fill-glamour { background: linear-gradient(90deg, #FF1493, #FF69B4); box-shadow: 0 0 10px #FF1493; }
+    .fill-energy { background: linear-gradient(90deg, #FF007F, #FFAA00); box-shadow: 0 0 10px #FFAA00; }
+    .fill-happiness { background: linear-gradient(90deg, #FF69B4, #00F5D4); box-shadow: 0 0 10px #00F5D4; }
+    .fill-snacks { background: linear-gradient(90deg, #7928CA, #FF1493); box-shadow: 0 0 10px #7928CA; }
+
+    .pet-actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      width: 100%;
+    }
+
+    .pet-btn {
+      background: #2E0B27;
+      border: 1.5px solid var(--pink-primary);
+      color: #FFF;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 700;
+      padding: 12px;
+      border-radius: 16px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.2s ease;
+    }
+
+    .pet-btn:hover {
+      background: var(--pink-primary);
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(255, 20, 147, 0.4);
+    }
+
+    .pet-btn span.emoji { font-size: 1.5rem; }
+    .pet-btn span.sub { font-size: 0.75rem; color: var(--pink-light); }
+
+    /* Footer Back Link */
+    .footer-link {
+      margin-top: 35px;
+      font-size: 0.9rem;
+      color: var(--pink-light);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: color 0.2s ease;
+    }
+
+    .footer-link:hover {
+      color: #FFF;
+      text-decoration: underline;
+    }
+
+    /* Confetti Canvas */
+    #confetti-canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      pointer-events: none;
+      z-index: 9999;
+    }
+  </style>
+</head>
+<body>
+
+  <canvas id="confetti-canvas"></canvas>
+
+  <h1 class="header-title">🎀 Barbiecore Arcade 🐩</h1>
+  <p class="header-sub">Interactive mini-games crafted for Afifa Syed's GitHub World ✨</p>
+
+  <!-- Game Tabs -->
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('wordle')">🎀 Fashion Wordle</button>
+    <button class="tab-btn" onclick="switchTab('pet')">🐩 Bella The Pet</button>
+  </div>
+
+  <!-- ==========================================
+       VIEW 1: PINK FASHION WORDLE
+       ========================================== -->
+  <div id="wordle-view" class="game-view active">
+    <div id="wordle-status" class="wordle-status">Guess the 5-letter glam fashion word! 💅</div>
+
+    <div class="wordle-grid" id="wordle-grid">
+      <!-- 6 Rows Generated by JS -->
+    </div>
+
+    <!-- Virtual Keyboard -->
+    <div class="keyboard" id="keyboard">
+      <div class="kb-row">
+        <button class="key-btn" onclick="handleKey('Q')">Q</button>
+        <button class="key-btn" onclick="handleKey('W')">W</button>
+        <button class="key-btn" onclick="handleKey('E')">E</button>
+        <button class="key-btn" onclick="handleKey('R')">R</button>
+        <button class="key-btn" onclick="handleKey('T')">T</button>
+        <button class="key-btn" onclick="handleKey('Y')">Y</button>
+        <button class="key-btn" onclick="handleKey('U')">U</button>
+        <button class="key-btn" onclick="handleKey('I')">I</button>
+        <button class="key-btn" onclick="handleKey('O')">O</button>
+        <button class="key-btn" onclick="handleKey('P')">P</button>
+      </div>
+      <div class="kb-row">
+        <button class="key-btn" onclick="handleKey('A')">A</button>
+        <button class="key-btn" onclick="handleKey('S')">S</button>
+        <button class="key-btn" onclick="handleKey('D')">D</button>
+        <button class="key-btn" onclick="handleKey('F')">F</button>
+        <button class="key-btn" onclick="handleKey('G')">G</button>
+        <button class="key-btn" onclick="handleKey('H')">H</button>
+        <button class="key-btn" onclick="handleKey('J')">J</button>
+        <button class="key-btn" onclick="handleKey('K')">K</button>
+        <button class="key-btn" onclick="handleKey('L')">L</button>
+      </div>
+      <div class="kb-row">
+        <button class="key-btn wide" onclick="handleKey('ENTER')">ENTER</button>
+        <button class="key-btn" onclick="handleKey('Z')">Z</button>
+        <button class="key-btn" onclick="handleKey('X')">X</button>
+        <button class="key-btn" onclick="handleKey('C')">C</button>
+        <button class="key-btn" onclick="handleKey('V')">V</button>
+        <button class="key-btn" onclick="handleKey('B')">B</button>
+        <button class="key-btn" onclick="handleKey('N')">N</button>
+        <button class="key-btn" onclick="handleKey('M')">M</button>
+        <button class="key-btn wide" onclick="handleKey('BACK')">⌫</button>
+      </div>
+    </div>
+
+    <div class="wordle-controls">
+      <button class="action-btn" onclick="newWordleGame()">🔄 New Word</button>
+      <button class="action-btn" onclick="hintWordle()">💡 Clue</button>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       VIEW 2: BELLA THE GLAM POODLE (PET)
+       ========================================== -->
+  <div id="pet-view" class="game-view">
+    <div class="pet-card">
+      <!-- Vector Poodle Artwork -->
+      <svg class="poodle-avatar" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="100" cy="145" rx="42" ry="32" fill="#FF85C1" />
+        <ellipse cx="100" cy="135" rx="36" ry="24" fill="#FFB6D9" />
+        <circle cx="80" cy="138" r="14" fill="#FF99CC" />
+        <circle cx="120" cy="138" r="14" fill="#FF99CC" />
+        <rect x="76" y="114" width="48" height="8" rx="4" fill="#FF1493" />
+        <path d="M 100 128 L 93 120 A 4 4 0 0 1 99 116 L 100 118 L 101 116 A 4 4 0 0 1 107 120 Z" fill="#FFD700" />
+        <circle cx="100" cy="85" r="38" fill="#FFA3D0" />
+        <ellipse cx="100" cy="95" rx="22" ry="17" fill="#FFD1E8" />
+        <!-- Left Ear -->
+        <circle cx="64" cy="80" r="18" fill="#FF69B4" />
+        <circle cx="58" cy="92" r="14" fill="#FF85C1" />
+        <!-- Right Ear -->
+        <circle cx="136" cy="80" r="18" fill="#FF69B4" />
+        <circle cx="142" cy="92" r="14" fill="#FF85C1" />
+        <!-- Topknot -->
+        <circle cx="100" cy="50" r="22" fill="#FF85C1" />
+        <!-- Tiara -->
+        <path d="M 84 46 L 82 36 L 91 40 L 100 30 L 109 40 L 118 36 L 116 46 Z" fill="#FFD700" stroke="#FFF" stroke-width="0.8" />
+        <!-- Eyes -->
+        <ellipse cx="87" cy="87" rx="7" ry="9" fill="#3D002E" />
+        <ellipse cx="113" cy="87" rx="7" ry="9" fill="#3D002E" />
+        <circle cx="87" cy="88" r="5.5" fill="#FF1493" />
+        <circle cx="113" cy="88" r="5.5" fill="#FF1493" />
+        <circle cx="85" cy="84" r="2.5" fill="#FFFFFF" />
+        <circle cx="111" cy="84" r="2.5" fill="#FFFFFF" />
+        <!-- Nose & Smile -->
+        <ellipse cx="100" cy="96" rx="4" ry="3" fill="#FF1493" />
+        <path d="M 95 101 Q 100 105 105 101" fill="none" stroke="#660040" stroke-width="1.8" stroke-linecap="round" />
+        <!-- Blush -->
+        <ellipse cx="80" cy="97" rx="6" ry="3.5" fill="#FF69B4" opacity="0.6" />
+        <ellipse cx="120" cy="97" rx="6" ry="3.5" fill="#FF69B4" opacity="0.6" />
+      </svg>
+
+      <div class="pet-name">🐩 Bella</div>
+      <div class="pet-title">Princess of Barbie World 💖</div>
+
+      <div id="pet-mood" class="mood-bubble">"Living her absolute best Barbie life! 💅💖✨"</div>
+
+      <!-- Live Vitals Meters -->
+      <div class="meters-container">
+        <div class="meter-row">
+          <div class="meter-header">
+            <span>💖 Glamour</span>
+            <span id="stat-glamour-num">95%</span>
+          </div>
+          <div class="meter-bar-bg"><div id="stat-glamour-bar" class="meter-bar-fill fill-glamour" style="width: 95%;"></div></div>
+        </div>
+
+        <div class="meter-row">
+          <div class="meter-header">
+            <span>⚡ Energy</span>
+            <span id="stat-energy-num">80%</span>
+          </div>
+          <div class="meter-bar-bg"><div id="stat-energy-bar" class="meter-bar-fill fill-energy" style="width: 80%;"></div></div>
+        </div>
+
+        <div class="meter-row">
+          <div class="meter-header">
+            <span>✨ Happiness</span>
+            <span id="stat-happiness-num">90%</span>
+          </div>
+          <div class="meter-bar-bg"><div id="stat-happiness-bar" class="meter-bar-fill fill-happiness" style="width: 90%;"></div></div>
+        </div>
+
+        <div class="meter-row">
+          <div class="meter-header">
+            <span>🧁 Snacks</span>
+            <span id="stat-snacks-num">75%</span>
+          </div>
+          <div class="meter-bar-bg"><div id="stat-snacks-bar" class="meter-bar-fill fill-snacks" style="width: 75%;"></div></div>
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="pet-actions">
+        <button class="pet-btn" onclick="pamperPet('bath')">
+          <span class="emoji">🛁</span>
+          <span>Bubble Bath</span>
+          <span class="sub">+25 Glamour</span>
+        </button>
+        <button class="pet-btn" onclick="pamperPet('feed')">
+          <span class="emoji">🧁</span>
+          <span>Give Macaron</span>
+          <span class="sub">+30 Snacks</span>
+        </button>
+        <button class="pet-btn" onclick="pamperPet('shop')">
+          <span class="emoji">🛍️</span>
+          <span>Go Shopping</span>
+          <span class="sub">+25 Happiness</span>
+        </button>
+        <button class="pet-btn" onclick="pamperPet('sleep')">
+          <span class="emoji">💤</span>
+          <span>Beauty Sleep</span>
+          <span class="sub">+35 Energy</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <a href="https://github.com/afifasyed123/afifasyed123" class="footer-link">
+    ← Back to Afifa Syed's GitHub Profile
+  </a>
+
+  <!-- Audio Synthesis & Game Logic -->
+  <script>
+    // Audio FX using Web Audio API
+    const AudioContext = window.AudioContext || window.webkitAudioContext;
+    let audioCtx = null;
+
+    function playTone(freq, duration = 0.1, type = 'sine') {
+      try {
+        if (!audioCtx) audioCtx = new AudioContext();
+        if (audioCtx.state === 'suspended') audioCtx.resume();
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.type = type;
+        osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+        gain.gain.setValueAtTime(0.12, audioCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + duration);
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start();
+        osc.stop(audioCtx.currentTime + duration);
+      } catch (e) {}
+    }
+
+    function playSuccessChime() {
+      [523.25, 659.25, 783.99, 1046.50].forEach((freq, i) => {
+        setTimeout(() => playTone(freq, 0.25, 'triangle'), i * 90);
+      });
+    }
+
+    // Tabs
+    function switchTab(tabId) {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.game-view').forEach(v => v.classList.remove('active'));
+      if (tabId === 'wordle') {
+        document.querySelector('.tabs button:first-child').classList.add('active');
+        document.getElementById('wordle-view').classList.add('active');
+      } else {
+        document.querySelector('.tabs button:last-child').classList.add('active');
+        document.getElementById('pet-view').classList.add('active');
+      }
+      playTone(600, 0.08);
+    }
+
+    // =======================================================
+    // WORDLE GAME LOGIC
+    // =======================================================
+    const WORDS = [
+      "GLAMS", "TIARA", "HEELS", "SATIN", "DENIM", "PEARL", "GLOSS", "BLUSH",
+      "STYLE", "FLAIR", "GOWNS", "POSES", "RINGS", "CHICS", "SILKS", "PURSE",
+      "DRESS", "SCENT", "MODEL", "LIPPY", "TREND", "SHINE", "JEWEL", "STRUT",
+      "CHARM", "SPARK", "SUITS", "BOOTS", "GLOWS", "FROCK", "LINEN", "BEADS",
+      "LACES", "CREAM", "SHADE", "PRADA", "VOGUE", "CORAL", "FANCY", "CROWN",
+      "QUEEN", "ROYAL", "LOVES", "SWEET", "PINKY", "HAUTE", "BEAUT", "LOOKS",
+      "GLITZ", "MODES"
+    ];
+
+    let targetWord = "";
+    let currentRow = 0;
+    let currentCol = 0;
+    let currentGuess = "";
+    let isGameOver = false;
+    let grid = Array(6).fill().map(() => Array(5).fill(""));
+
+    function initWordleBoard() {
+      const boardEl = document.getElementById("wordle-grid");
+      boardEl.innerHTML = "";
+      for (let r = 0; r < 6; r++) {
+        const rowEl = document.createElement("div");
+        rowEl.className = "wordle-row";
+        rowEl.id = `row-${r}`;
+        for (let c = 0; c < 5; c++) {
+          const tile = document.createElement("div");
+          tile.className = "wordle-tile";
+          tile.id = `tile-${r}-${c}`;
+          rowEl.appendChild(tile);
+        }
+        boardEl.appendChild(rowEl);
+      }
+    }
+
+    function newWordleGame() {
+      targetWord = WORDS[Math.floor(Math.random() * WORDS.length)];
+      currentRow = 0;
+      currentCol = 0;
+      currentGuess = "";
+      isGameOver = false;
+      grid = Array(6).fill().map(() => Array(5).fill(""));
+      initWordleBoard();
+      document.querySelectorAll(".key-btn").forEach(k => {
+        k.className = k.classList.contains("wide") ? "key-btn wide" : "key-btn";
+      });
+      document.getElementById("wordle-status").innerText = "Guess the 5-letter glam fashion word! 💅";
+      playTone(550, 0.1);
+    }
+
+    function handleKey(key) {
+      if (isGameOver) return;
+
+      if (key === "BACK") {
+        if (currentCol > 0) {
+          currentCol--;
+          currentGuess = currentGuess.slice(0, -1);
+          const tile = document.getElementById(`tile-${currentRow}-${currentCol}`);
+          tile.innerText = "";
+          tile.classList.remove("pop");
+          playTone(320, 0.05);
+        }
+        return;
+      }
+
+      if (key === "ENTER") {
+        if (currentGuess.length < 5) {
+          shakeRow(currentRow);
+          document.getElementById("wordle-status").innerText = "Not enough letters! 💅";
+          playTone(220, 0.15, 'sawtooth');
+          return;
+        }
+        submitGuess();
+        return;
+      }
+
+      if (/^[A-Z]$/.test(key) && currentCol < 5) {
+        currentGuess += key;
+        const tile = document.getElementById(`tile-${currentRow}-${currentCol}`);
+        tile.innerText = key;
+        tile.classList.add("pop");
+        currentCol++;
+        playTone(480 + (currentCol * 40), 0.06);
+      }
+    }
+
+    function shakeRow(rowIdx) {
+      const row = document.getElementById(`row-${rowIdx}`);
+      row.style.transform = "translateX(-8px)";
+      setTimeout(() => row.style.transform = "translateX(8px)", 80);
+      setTimeout(() => row.style.transform = "translateX(-6px)", 160);
+      setTimeout(() => row.style.transform = "translateX(0)", 240);
+    }
+
+    function submitGuess() {
+      const guess = currentGuess;
+      const target = targetWord;
+      const feedback = Array(5).fill("absent");
+      const targetCounts = {};
+
+      for (let ch of target) targetCounts[ch] = (targetCounts[ch] || 0) + 1;
+
+      // Pass 1: Correct
+      for (let i = 0; i < 5; i++) {
+        if (guess[i] === target[i]) {
+          feedback[i] = "correct";
+          targetCounts[guess[i]]--;
+        }
+      }
+
+      // Pass 2: Present
+      for (let i = 0; i < 5; i++) {
+        if (feedback[i] !== "correct" && targetCounts[guess[i]] > 0) {
+          feedback[i] = "present";
+          targetCounts[guess[i]]--;
+        }
+      }
+
+      // Animate flip
+      for (let i = 0; i < 5; i++) {
+        const tile = document.getElementById(`tile-${currentRow}-${i}`);
+        const ch = guess[i];
+        const status = feedback[i];
+        setTimeout(() => {
+          tile.classList.add("flip");
+          setTimeout(() => {
+            tile.classList.add(status);
+            updateKeyColor(ch, status);
+          }, 250);
+        }, i * 180);
+      }
+
+      setTimeout(() => {
+        if (guess === target) {
+          isGameOver = true;
+          document.getElementById("wordle-status").innerText = `🎉 BINGO! Solved: "${target}" in ${currentRow + 1} attempts! 👑✨`;
+          playSuccessChime();
+          fireConfetti();
+        } else if (currentRow >= 5) {
+          isGameOver = true;
+          document.getElementById("wordle-status").innerText = `💔 Game Over! The glam word was "${target}". 💕`;
+          playTone(200, 0.4, 'sawtooth');
+        } else {
+          currentRow++;
+          currentCol = 0;
+          currentGuess = "";
+          document.getElementById("wordle-status").innerText = `Attempt ${currentRow + 1}/6! Keep slaying 🌸`;
+        }
+      }, 5 * 180 + 300);
+    }
+
+    function updateKeyColor(letter, status) {
+      document.querySelectorAll(".key-btn").forEach(btn => {
+        if (btn.innerText === letter) {
+          if (status === "correct") {
+            btn.className = "key-btn correct";
+          } else if (status === "present" && !btn.classList.contains("correct")) {
+            btn.className = "key-btn present";
+          } else if (status === "absent" && !btn.classList.contains("correct") && !btn.classList.contains("present")) {
+            btn.className = "key-btn absent";
+          }
+        }
+      });
+    }
+
+    function hintWordle() {
+      if (isGameOver) return;
+      const hintCh = targetWord[Math.floor(Math.random() * 5)];
+      document.getElementById("wordle-status").innerText = `💡 Clue: Contains letter "${hintCh}"! 💅`;
+      playTone(700, 0.12);
+    }
+
+    // Listen to physical keyboard
+    window.addEventListener("keydown", (e) => {
+      const activeTab = document.querySelector(".tab-btn.active").innerText;
+      if (!activeTab.includes("Wordle")) return;
+
+      if (e.key === "Backspace") handleKey("BACK");
+      else if (e.key === "Enter") handleKey("ENTER");
+      else if (/^[a-zA-Z]$/.test(e.key)) handleKey(e.key.toUpperCase());
+    });
+
+    // =======================================================
+    // VIRTUAL PET LOGIC
+    // =======================================================
+    let petStats = {
+      glamour: 95,
+      energy: 80,
+      happiness: 90,
+      snacks: 75
+    };
+
+    function updatePetUI() {
+      for (let k in petStats) {
+        document.getElementById(`stat-${k}-num`).innerText = `${petStats[k]}%`;
+        document.getElementById(`stat-${k}-bar`).style.width = `${petStats[k]}%`;
+      }
+
+      const avg = (petStats.glamour + petStats.energy + petStats.happiness + petStats.snacks) / 4;
+      let mood = "Living her absolute best Barbie life! 💅💖✨";
+
+      if (petStats.energy <= 25) mood = "Taking a beauty nap, do not disturb! 💤👑";
+      else if (petStats.snacks <= 25) mood = "Craving strawberry macarons ASAP! 🧁🥺";
+      else if (petStats.glamour <= 25) mood = "Fashion emergency! Needs styling immediately! 💄👠";
+      else if (avg >= 85) mood = "Living her absolute best Barbie life! 💅💖✨";
+      else if (avg >= 70) mood = "Serving pure glam, sparkles & sweetness! 🎀✨";
+      else mood = "Feeling cute, might go shopping later! 🛍️🧁";
+
+      document.getElementById("pet-mood").innerText = `"${mood}"`;
+    }
+
+    function pamperPet(action) {
+      if (action === 'bath') {
+        petStats.glamour = Math.min(100, petStats.glamour + 25);
+        petStats.happiness = Math.min(100, petStats.happiness + 10);
+        playTone(650, 0.15);
+      } else if (action === 'feed') {
+        petStats.snacks = Math.min(100, petStats.snacks + 30);
+        petStats.energy = Math.min(100, petStats.energy + 5);
+        playTone(720, 0.15);
+      } else if (action === 'shop') {
+        petStats.happiness = Math.min(100, petStats.happiness + 25);
+        petStats.glamour = Math.min(100, petStats.glamour + 20);
+        petStats.energy = Math.max(0, petStats.energy - 10);
+        playSuccessChime();
+        fireConfetti();
+      } else if (action === 'sleep') {
+        petStats.energy = Math.min(100, petStats.energy + 35);
+        petStats.snacks = Math.max(0, petStats.snacks - 5);
+        playTone(440, 0.3, 'sine');
+      }
+      updatePetUI();
+    }
+
+    // =======================================================
+    // CONFETTI EFFECT
+    // =======================================================
+    function fireConfetti() {
+      const canvas = document.getElementById("confetti-canvas");
+      const ctx = canvas.getContext("2d");
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+
+      const colors = ["#FF1493", "#FF69B4", "#FFD700", "#00F5D4", "#FFF0F5"];
+      const particles = Array(90).fill().map(() => ({
+        x: canvas.width / 2,
+        y: canvas.height / 2,
+        vx: (Math.random() - 0.5) * 16,
+        vy: (Math.random() - 0.8) * 18,
+        color: colors[Math.floor(Math.random() * colors.length)],
+        size: Math.random() * 8 + 4,
+        rot: Math.random() * 360,
+        vrot: (Math.random() - 0.5) * 10
+      }));
+
+      let frames = 0;
+      function render() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        particles.forEach(p => {
+          p.x += p.vx;
+          p.y += p.vy;
+          p.vy += 0.45; // gravity
+          p.rot += p.vrot;
+          ctx.save();
+          ctx.translate(p.x, p.y);
+          ctx.rotate(p.rot * Math.PI / 180);
+          ctx.fillStyle = p.color;
+          ctx.fillRect(-p.size / 2, -p.size / 2, p.size, p.size);
+          ctx.restore();
+        });
+        frames++;
+        if (frames < 70) requestAnimationFrame(render);
+        else ctx.clearRect(0, 0, canvas.width, canvas.height);
+      }
+      render();
+    }
+
+    // Initialize on load
+    window.onload = () => {
+      newWordleGame();
+      updatePetUI();
+    };
+  </script>
+</body>
+</html>

@@ -238,7 +238,7 @@ const afifa = {
 ## 🐩🎀 Barbiecore Virtual Pet: Bella The Glam Poodle
 
 <p align="left">
-  <em>Welcome to Bella's Glam Salon! Bella is my autonomous Barbiecore virtual pet living directly on GitHub. Click any interactive pampering button below to give her a bubble bath, feed her macarons, take her shopping, or tuck her in for beauty sleep! 💅💖✨</em>
+  <em>Welcome to Bella's Glam Salon! Bella is my autonomous Barbiecore virtual pet living directly on GitHub. Click the play button below to pamper her, feed her macarons, take her shopping, or tuck her in for beauty sleep in real time! 💅💖✨</em>
 </p>
 
 <div align="center">
@@ -281,35 +281,18 @@ const afifa = {
   <img src="./assets/pet-card.svg" width="100%" alt="Bella the Glam Poodle" />
 </p>
 
-### 🎮 Pamper Bella (Click an action to play!)
-
-| 🛁 **[Bubble Bath](https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:bath&body=Pampering+Bella+with+a+warm+bubble+bath!+🛁💖)** | 🧁 **[Give Macaron](https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:feed&body=Giving+Bella+a+sweet+strawberry+macaron!+🧁✨)** | 🛍️ **[Go Shopping](https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:shop&body=Taking+Bella+on+a+luxury+Barbiecore+shopping+spree!+🛍️💄)** | 💤 **[Beauty Sleep](https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:sleep&body=Tucking+Bella+in+for+her+royal+beauty+sleep!+💤👑)** |
-| :---: | :---: | :---: | :---: |
-| `+25 Glamour` • `+10 Happiness` | `+30 Snacks` • `+5 Energy` | `+25 Happiness` • `+20 Glamour` • `-10 Energy` | `+35 Energy` • `-5 Snacks` |
-
 <br/>
 
-<a href="https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:bath&body=Pampering+Bella+with+a+warm+bubble+bath!+🛁💖">
-  <img src="https://img.shields.io/badge/🛁%20Bubble%20Bath-+25%20Glamour-FF1493?style=for-the-badge&logo=sparkles&logoColor=white" alt="Bubble Bath" />
-</a>
-&nbsp;
-<a href="https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:feed&body=Giving+Bella+a+sweet+strawberry+macaron!+🧁✨">
-  <img src="https://img.shields.io/badge/🧁%20Give%20Macaron-+30%20Snacks-FF69B4?style=for-the-badge&logo=cake&logoColor=white" alt="Give Macaron" />
-</a>
-&nbsp;
-<a href="https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:shop&body=Taking+Bella+on+a+luxury+Barbiecore+shopping+spree!+🛍️💄">
-  <img src="https://img.shields.io/badge/🛍️%20Go%20Shopping-+25%20Happiness-7928CA?style=for-the-badge&logo=shopify&logoColor=white" alt="Go Shopping" />
-</a>
-&nbsp;
-<a href="https://github.com/afifasyed123/afifasyed123/issues/new?title=pet:sleep&body=Tucking+Bella+in+for+her+royal+beauty+sleep!+💤👑">
-  <img src="https://img.shields.io/badge/💤%20Beauty%20Sleep-+35%20Energy-00F5D4?style=for-the-badge&logo=cloud&logoColor=black" alt="Beauty Sleep" />
+<a href="https://afifasyed123.github.io/afifasyed123/" target="_blank">
+  <img src="https://img.shields.io/badge/🎮%20PAMPER%20BELLA%20IN%20BROWSER-Click%20to%20Play-FF1493?style=for-the-badge&logo=sparkles&logoColor=white" alt="Pamper Bella Online" />
 </a>
 
 </div>
 
 <br/>
 
-> **💡 How it works:** Click any pampering button above to open an issue with the pre-filled command. Hit **"Submit new issue"** and our GitHub Action will immediately update Bella's stats directly in this README and reply to thank you! 💕  
+> **👑 Current Mood:** *"Living her absolute best Barbie life! 💅💖✨"*  
+> **🎮 How to Play:** Click **PAMPER BELLA IN BROWSER** above to open the real-time interactive salon in your browser! Feed her macarons, take her shopping, and hear sounds as her vitals update live! 💕  
 > **👑 Current Caretaker:** **@BarbieFan** with `Go Shopping 🛍️` • **Total Treats Given:** `2` ✨
 
 <!-- PET:END -->
@@ -319,7 +302,7 @@ const afifa = {
 <!-- WORDLE:START -->
 ### 🎀 Pink Fashion Wordle
 <p align="left">
-  <em>An interactive Barbiecore &amp; chic fashion Wordle running directly in this README! Guess the hidden 5-letter glam word (e.g. <code>TIARA</code>, <code>GLAMS</code>, <code>HEELS</code>, <code>SATIN</code>). Click the button below to play! 💅💖✨</em>
+  <em>A real, fully playable Barbiecore &amp; chic fashion Wordle game! Click the button below to launch the game directly in your browser with real-time keyboard controls, tile flip animations, and sound effects! 💅💖✨</em>
 </p>
 
 <div align="center">
@@ -339,8 +322,8 @@ const afifa = {
 
 <br/>
 
-<a href="https://github.com/afifasyed123/afifasyed123/issues/new?title=wordle:+YOURWORD&body=Replace+YOURWORD+with+your+5-letter+guess!">
-  <img src="https://img.shields.io/badge/🎀%20Click%20Here%20to%20Submit%20a%205--Letter%20Guess-FF1493?style=for-the-badge&logo=sparkles&logoColor=white" alt="Submit Guess" />
+<a href="https://afifasyed123.github.io/afifasyed123/" target="_blank">
+  <img src="https://img.shields.io/badge/🎮%20PLAY%20WORDLE%20IN%20BROWSER-Click%20to%20Play-FF1493?style=for-the-badge&logo=retroarch&logoColor=white" alt="Play Wordle Online" />
 </a>
 
 <br/><br/>
@@ -355,7 +338,7 @@ const afifa = {
 <br/>
 
 > **✨ Tile Legend:** 💖 = Correct letter in correct spot | 🌸 = Correct letter, wrong spot | 🤍 = Letter not in word  
-> **💡 How to Play:** Click the pink button above, replace `YOURWORD` in the title with your 5-letter fashion guess, and hit **"Submit new issue"**! Our GitHub Action will automatically evaluate your guess, update the board in this README, and comment back! 💕
+> **🎮 How to Play:** Click **PLAY WORDLE IN BROWSER** above to launch the full interactive game in your browser! Type on your keyboard, guess the 5-letter glam fashion words, and win confetti celebrations! 💕
 
 <!-- WORDLE:END -->
 

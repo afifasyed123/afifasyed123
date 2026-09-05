@@ -450,12 +450,7 @@ def generate_readme_snippet(state):
     action = state.get("last_action", "Bubble Bath 🛁")
     total = state.get("total_interactions", 1)
 
-    issue_base = f"https://github.com/{USERNAME}/{USERNAME}/issues/new"
-
-    bath_link = f"{issue_base}?title=pet:bath&body=Pampering+Bella+with+a+warm+bubble+bath!+🛁💖"
-    feed_link = f"{issue_base}?title=pet:feed&body=Giving+Bella+a+sweet+strawberry+macaron!+🧁✨"
-    shop_link = f"{issue_base}?title=pet:shop&body=Taking+Bella+on+a+luxury+Barbiecore+shopping+spree!+🛍️💄"
-    sleep_link = f"{issue_base}?title=pet:sleep&body=Tucking+Bella+in+for+her+royal+beauty+sleep!+💤👑"
+    game_url = f"https://{USERNAME}.github.io/{USERNAME}/"
 
     glamour_bar = make_bar(stats["glamour"])
     energy_bar = make_bar(stats["energy"])
@@ -466,7 +461,7 @@ def generate_readme_snippet(state):
 ## 🐩🎀 Barbiecore Virtual Pet: Bella The Glam Poodle
 
 <p align="left">
-  <em>Welcome to Bella's Glam Salon! Bella is my autonomous Barbiecore virtual pet living directly on GitHub. Click any interactive pampering button below to give her a bubble bath, feed her macarons, take her shopping, or tuck her in for beauty sleep! 💅💖✨</em>
+  <em>Welcome to Bella's Glam Salon! Bella is my autonomous Barbiecore virtual pet living directly on GitHub. Click the play button below to pamper her, feed her macarons, take her shopping, or tuck her in for beauty sleep in real time! 💅💖✨</em>
 </p>
 
 <div align="center">
@@ -509,38 +504,22 @@ def generate_readme_snippet(state):
   <img src="./assets/pet-card.svg" width="100%" alt="Bella the Glam Poodle" />
 </p>
 
-### 🎮 Pamper Bella (Click an action to play!)
-
-| 🛁 **[Bubble Bath]({bath_link})** | 🧁 **[Give Macaron]({feed_link})** | 🛍️ **[Go Shopping]({shop_link})** | 💤 **[Beauty Sleep]({sleep_link})** |
-| :---: | :---: | :---: | :---: |
-| `+25 Glamour` • `+10 Happiness` | `+30 Snacks` • `+5 Energy` | `+25 Happiness` • `+20 Glamour` • `-10 Energy` | `+35 Energy` • `-5 Snacks` |
-
 <br/>
 
-<a href="{bath_link}">
-  <img src="https://img.shields.io/badge/🛁%20Bubble%20Bath-+25%20Glamour-FF1493?style=for-the-badge&logo=sparkles&logoColor=white" alt="Bubble Bath" />
-</a>
-&nbsp;
-<a href="{feed_link}">
-  <img src="https://img.shields.io/badge/🧁%20Give%20Macaron-+30%20Snacks-FF69B4?style=for-the-badge&logo=cake&logoColor=white" alt="Give Macaron" />
-</a>
-&nbsp;
-<a href="{shop_link}">
-  <img src="https://img.shields.io/badge/🛍️%20Go%20Shopping-+25%20Happiness-7928CA?style=for-the-badge&logo=shopify&logoColor=white" alt="Go Shopping" />
-</a>
-&nbsp;
-<a href="{sleep_link}">
-  <img src="https://img.shields.io/badge/💤%20Beauty%20Sleep-+35%20Energy-00F5D4?style=for-the-badge&logo=cloud&logoColor=black" alt="Beauty Sleep" />
+<a href="{game_url}" target="_blank">
+  <img src="https://img.shields.io/badge/🎮%20PAMPER%20BELLA%20IN%20BROWSER-Click%20to%20Play-FF1493?style=for-the-badge&logo=sparkles&logoColor=white" alt="Pamper Bella Online" />
 </a>
 
 </div>
 
 <br/>
 
-> **💡 How it works:** Click any pampering button above to open an issue with the pre-filled command. Hit **"Submit new issue"** and our GitHub Action will immediately update Bella's stats directly in this README and reply to thank you! 💕  
+> **👑 Current Mood:** *"{mood}"*  
+> **🎮 How to Play:** Click **PAMPER BELLA IN BROWSER** above to open the real-time interactive salon in your browser! Feed her macarons, take her shopping, and hear sounds as her vitals update live! 💕  
 > **👑 Current Caretaker:** **@{caretaker}** with `{action}` • **Total Treats Given:** `{total}` ✨
 
 <!-- PET:END -->"""
+    return snippet
     return snippet
 
 

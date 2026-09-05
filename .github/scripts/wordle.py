@@ -144,7 +144,7 @@ def build_keyboard_tracker(attempts):
 
 
 def render_markdown(state):
-    """Generate the Markdown grid, tracker, and click-to-play link."""
+    """Generate the Markdown grid, tracker, and direct play link."""
     round_num = state.get("round", 1)
     attempts = state.get("attempts", [])
     num_attempts = len(attempts)
@@ -152,10 +152,7 @@ def render_markdown(state):
     winner = state.get("winner")
     target = state.get("target_word", "TIARA")
 
-    issue_url = (
-        f"https://github.com/{USERNAME}/{USERNAME}/issues/new"
-        f"?title=wordle:+YOURWORD&body=Replace+YOURWORD+with+your+5-letter+guess!"
-    )
+    game_url = f"https://{USERNAME}.github.io/{USERNAME}/"
 
     # Status Banner
     if status == "won":
@@ -190,7 +187,7 @@ def render_markdown(state):
     snippet = f"""<!-- WORDLE:START -->
 ### 🎀 Pink Fashion Wordle
 <p align="left">
-  <em>An interactive Barbiecore &amp; chic fashion Wordle running directly in this README! Guess the hidden 5-letter glam word (e.g. <code>TIARA</code>, <code>GLAMS</code>, <code>HEELS</code>, <code>SATIN</code>). Click the button below to play! 💅💖✨</em>
+  <em>A real, fully playable Barbiecore &amp; chic fashion Wordle game! Click the button below to launch the game directly in your browser with real-time keyboard controls, tile flip animations, and sound effects! 💅💖✨</em>
 </p>
 
 <div align="center">
@@ -205,8 +202,8 @@ def render_markdown(state):
 
 <br/>
 
-<a href="{issue_url}">
-  <img src="https://img.shields.io/badge/🎀%20Click%20Here%20to%20Submit%20a%205--Letter%20Guess-FF1493?style=for-the-badge&logo=sparkles&logoColor=white" alt="Submit Guess" />
+<a href="{game_url}" target="_blank">
+  <img src="https://img.shields.io/badge/🎮%20PLAY%20WORDLE%20IN%20BROWSER-Click%20to%20Play-FF1493?style=for-the-badge&logo=retroarch&logoColor=white" alt="Play Wordle Online" />
 </a>
 
 <br/><br/>
@@ -219,7 +216,7 @@ def render_markdown(state):
 <br/>
 
 > **✨ Tile Legend:** 💖 = Correct letter in correct spot | 🌸 = Correct letter, wrong spot | 🤍 = Letter not in word  
-> **💡 How to Play:** Click the pink button above, replace `YOURWORD` in the title with your 5-letter fashion guess, and hit **"Submit new issue"**! Our GitHub Action will automatically evaluate your guess, update the board in this README, and comment back! 💕
+> **🎮 How to Play:** Click **PLAY WORDLE IN BROWSER** above to launch the full interactive game in your browser! Type on your keyboard, guess the 5-letter glam fashion words, and win confetti celebrations! 💕
 
 <!-- WORDLE:END -->"""
     return snippet
