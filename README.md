@@ -162,14 +162,14 @@ const afifa = {
 <div align="center">
   <table align="center" border="0" cellspacing="0" cellpadding="0">
     <tr>
-      <td align="center" width="50%">
+      <td align="center" width="100%">
         <a href="https://leetcode.com/u/afifasyedd/">
           <img src="https://leetcard.jacoblin.cool/afifasyedd?theme=unicorn&font=Syne&ext=activity" alt="LeetCode Stats" width="100%" />
         </a>
       </td>
     </tr>
       <tr>
-      <td align="center" width="50%">
+      <td align="center" width="100%">
         <a href="https://leetcode.com/u/afifasyedd/">
           <img src="https://leetcard.jacoblin.cool/afifasyedd?theme=radical&font=Syne&ext=heatmap" alt="LeetCode Heatmap" width="100%" />
         </a>
