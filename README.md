@@ -33,7 +33,7 @@
   </a>
   &nbsp;
   <a href="https://afifasyed.me/">
-    <img src="https://img.shields.io/badge/Portfolio-afifa--syed--portfolio.vercel.app-FF1493?style=for-the-badge&logo=sparkles&logoColor=white&labelColor=000000" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Portfolio-afifasyed.me-FF1493?style=for-the-badge&logo=sparkles&logoColor=white&labelColor=000000" alt="Portfolio" />
   </a>
 </div>
 
