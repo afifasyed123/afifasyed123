@@ -32,7 +32,7 @@
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn" />
   </a>
   &nbsp;
-  <a href="https://afifa-syed-portfolio.vercel.app/">
+  <a href="https://afifasyed.me/">
     <img src="https://img.shields.io/badge/Portfolio-afifa--syed--portfolio.vercel.app-FF1493?style=for-the-badge&logo=sparkles&logoColor=white&labelColor=000000" alt="Portfolio" />
   </a>
 </div>
