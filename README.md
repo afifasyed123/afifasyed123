@@ -5,7 +5,7 @@
 
 <!-- Typing Animation -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=FF1493&center=true&vCenter=true&random=false&width=750&lines=Artificial+Intelligence+%26+Data+Science+Engineer+%F0%9F%A7%A0;Java+%26+Spring+Boot+Backend+Developer+%E2%9A%A1;Competitive+Programmer+%26+Codeforces+Contender+%F0%9F%8F%86;9.62+CGPA+at+TSEC+Mumbai+%F0%9F%8E%93;DSA+Enthusiast+%26+LeetCode+Problem+Solver+%F0%9F%92%A1;Building+Scalable+%26+Intelligent+Web+Systems+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=FF1493&center=true&vCenter=true&random=false&width=750&lines=Artificial+Intelligence+%26+Data+Science+Engineer+%F0%9F%A7%A0;Java+%26+Spring+Boot+Backend+Developer+%E2%9A%A1;Competitive+Programmer+%26+Codeforces+Newbie+%F0%9F%8C%B1%F0%9F%8F%86;9.62+CGPA+at+TSEC+Mumbai+%F0%9F%8E%93;DSA+Enthusiast+%26+LeetCode+Problem+Solver+%F0%9F%92%A1;Building+Scalable+%26+Intelligent+Web+Systems+%F0%9F%9A%80" alt="Typing SVG" />
 </div>
 
 <br/>
@@ -36,8 +36,8 @@
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn" />
   </a>
   &nbsp;
-  <a href="https://afifasyed.me/">
-    <img src="https://img.shields.io/badge/Portfolio-afifasyed.me-FF1493?style=for-the-badge&logo=sparkles&logoColor=white&labelColor=000000" alt="Portfolio" />
+  <a href="https://afifa-syed-portfolio.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-afifa--syed--portfolio.vercel.app-FF1493?style=for-the-badge&logo=sparkles&logoColor=white&labelColor=000000" alt="Portfolio" />
   </a>
 </div>
 
@@ -60,9 +60,9 @@ const afifa = {
     },
     
     currentFocus: [
-        "Competitive Programming & Algorithmic Optimization (Codeforces & LeetCode)",
+        "Competitive Programming & Algorithmic Problem Solving (LeetCode & Codeforces)",
         "Scalable Backend Architectures in Java & Spring Boot",
-        "Machine Learning Pipelines, Computer Vision & Statistical Modeling in Python",
+        "Machine Learning Pipelines, Computer Vision & Data Modeling in Python",
         "Enterprise Database Persistence & High-Throughput RESTful APIs"
     ],
 
@@ -90,8 +90,8 @@ const afifa = {
         toolsAndPlatforms: ["Git", "GitHub", "IntelliJ IDEA", "VS Code", "Postman", "Linux", "Windows"]
     },
     
-    funFact: "I solve Codeforces & LeetCode algorithmic puzzles while jamming to my curated Spotify coding playlist! 💖⚡🎧",
-    askMeAbout: ["Codeforces", "Competitive Programming", "Spring Boot", "Java OOPs", "Machine Learning in Python", "DSA", "Relational Databases"],
+    funFact: "I solve algorithmic puzzles on LeetCode & Codeforces while tuning into my coding soundtrack! 💖⚡🎧",
+    askMeAbout: ["Competitive Programming", "Codeforces", "LeetCode", "Spring Boot", "Java OOPs", "Machine Learning in Python", "DSA", "Relational Databases"],
     challenge: "Building resilient, elegant, and high-performance software systems with clean architecture"
 };
 ```
@@ -143,15 +143,6 @@ const afifa = {
 <tr>
 <td width="50%" valign="top">
 
-### 🧠 [Predictive AI & Data Science Suite](https://github.com/afifasyed123)
-`Python` • `Scikit-Learn` • `Pandas` • `NumPy` • `Matplotlib` • `Jupyter`
-* Exploratory data analysis, feature engineering, and predictive classification workflows.
-* Focuses on statistical inference, high-accuracy training, and automated evaluation metrics.
-* **[GitHub Profile](https://github.com/afifasyed123)**
-
-</td>
-<td width="50%" valign="top">
-
 ### 🛡️ [PRICEGUARD — Price Tracking & Intelligence](https://github.com/afifasyed123/PRICEGUARD)
 `Python` • `Streamlit` • `Web Scraping` • `Data Analytics`
 * Intelligent real-time price monitoring and historical analysis platform.
@@ -159,50 +150,47 @@ const afifa = {
 * **[Live App](https://priceguard.streamlit.app/)** • **[GitHub Repository](https://github.com/afifasyed123/PRICEGUARD)**
 
 </td>
+<td width="50%" valign="top">
+
+### 🔍 [Instagram Fake Account Detection](https://github.com/afifasyed123/Instagram-Fake-Account-Detection)
+`Python` • `Flask` • `Scikit-Learn` • `Machine Learning` • `Random Forest`
+* Machine Learning web application detecting inauthentic profiles via multidimensional profile metadata analysis.
+* **[GitHub Repository](https://github.com/afifasyed123/Instagram-Fake-Account-Detection)**
+
+</td>
 </tr>
 </table>
 
 ---
 
-## 📊 Problem Solving & Competitive Programming Arena
+## 📊 LeetCode Problem Solving & DSA Journey
 
 <div align="center">
-  <a href="https://codeforces.com/profile/afifasyed06">
-    <img src="https://img.shields.io/badge/Codeforces-afifasyed06-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces Profile" />
-  </a>
-  &nbsp;
   <a href="https://leetcode.com/u/afifasyedd/">
     <img src="https://img.shields.io/badge/LeetCode-afifasyedd-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode Profile" />
   </a>
   &nbsp;
-  <a href="https://codeforces.com/profile/afifasyed06">
-    <img src="https://img.shields.io/badge/CP-Active_Contender-FF1493?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces Active" />
+  <a href="https://leetcode.com/u/afifasyedd/">
+    <img src="https://img.shields.io/badge/Problem%20Solving-Active-FF1493?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Active" />
   </a>
   &nbsp;
   <a href="https://leetcode.com/u/afifasyedd/">
-    <img src="https://img.shields.io/badge/Focus-DSA_%26_Competitive_Programming-00D9FF?style=for-the-badge&logo=databricks&logoColor=white" alt="DSA Focus" />
+    <img src="https://img.shields.io/badge/Focus-DSA_%26_Algorithms-00D9FF?style=for-the-badge&logo=databricks&logoColor=white" alt="DSA Focus" />
   </a>
 </div>
 
 <br/>
 
-### 🏆 Codeforces & LeetCode Performance Cards
+### 📈 Dynamic LeetCode Activity & Heatmap
 <div align="center">
   <table align="center" border="0" cellspacing="0" cellpadding="0">
     <tr>
-      <td align="center" width="50%" valign="top">
-        <a href="https://codeforces.com/profile/afifasyed06">
-          <img src="https://codeforces-readme-stats.vercel.app/api/card?username=afifasyed06&theme=radical" alt="Codeforces Stats" width="100%" />
-        </a>
-      </td>
       <td align="center" width="50%" valign="top">
         <a href="https://leetcode.com/u/afifasyedd/">
           <img src="https://leetcard.jacoblin.cool/afifasyedd?theme=unicorn&font=Syne&ext=activity" alt="LeetCode Stats" width="100%" />
         </a>
       </td>
-    </tr>
-    <tr>
-      <td align="center" colspan="2">
+      <td align="center" width="50%" valign="top">
         <a href="https://leetcode.com/u/afifasyedd/">
           <img src="https://leetcard.jacoblin.cool/afifasyedd?theme=radical&font=Syne&ext=heatmap" alt="LeetCode Heatmap" width="100%" />
         </a>
@@ -211,29 +199,62 @@ const afifa = {
   </table>
 </div>
 
-<p align="center">
-  <em>"Mastering algorithms round by round — from Codeforces Div contests to LeetCode Daily Challenges, consistency turns complex logic into second nature."</em> 💡⚡
-</p>
+<br/>
 
----
-
-## 🎵 Coding Soundtrack & Spotify Vibes
+### ⚔️ Codeforces Arena (New Journey 🚀)
 
 <div align="center">
-  <a href="https://open.spotify.com/track/3KkXRkHbMCARz0aVfEt68P" target="_blank">
-    <img src="https://img.shields.io/badge/Spotify-Coding_Vibes_%26_Soundtrack-1ED760?style=for-the-badge&logo=spotify&logoColor=white&labelColor=121212" alt="Spotify Vibes" />
+  <a href="https://codeforces.com/profile/afifasyed06">
+    <img src="https://img.shields.io/badge/Codeforces-afifasyed06-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces Profile" />
   </a>
   &nbsp;
-  <a href="https://afifasyed123.github.io/afifasyed123/player/" target="_blank">
-    <img src="https://img.shields.io/badge/Barbiecore_Music_Player-Open_Player_%E2%99%AA-FF1493?style=for-the-badge&logo=music&logoColor=white&labelColor=121212" alt="Retro Player" />
+  <a href="https://codeforces.com/profile/afifasyed06">
+    <img src="https://img.shields.io/badge/Rank-Newbie_%F0%9F%8C%B1-808080?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces Newbie" />
+  </a>
+  &nbsp;
+  <a href="https://codeforces.com/profile/afifasyed06">
+    <img src="https://img.shields.io/badge/Contests-Just_Started-FF1493?style=for-the-badge&logo=target&logoColor=white" alt="Just Started" />
   </a>
 </div>
 
 <br/>
 
 <div align="center">
-  <a href="https://afifasyed123.github.io/afifasyed123/player/" target="_blank">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&pause=1000&color=F472B6&background=18181B&center=true&vCenter=true&width=500&height=70&lines=%E2%96%B6%EF%B8%8F+Now+Playing%3A+Sunflower+%E2%99%A1;%E2%99%AA+%E2%94%80%E2%94%80%E2%94%80%E2%97%8F%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80+1%3A12+%2F+2%3A38;%E2%9C%A7+Click+to+listen+along+with+me+on+Spotify+%E2%9C%A7" alt="Sunflower Player" />
+  <a href="https://codeforces.com/profile/afifasyed06">
+    <img src="https://codeforces-readme-stats.vercel.app/api/card?username=afifasyed06&theme=radical" alt="Codeforces Stats" width="480" />
+  </a>
+</div>
+
+<p align="center">
+  <em>"Every problem solved is a step closer to becoming a Grandmaster!"</em> 💡⚡
+</p>
+
+---
+
+## 🎧 Soundtrack to My Code & Systems
+
+<div align="center">
+  <table border="0" cellspacing="0" cellpadding="0" style="background: transparent;">
+    <tr>
+      <td align="center" style="background: #0d1117; border: 1px solid #21262d; border-radius: 16px; padding: 22px; width: 330px;">
+        <p align="center" style="margin-bottom: 10px;">
+          <a href="https://open.spotify.com" target="_blank">
+            <img src="https://img.shields.io/badge/Recently%20played%20on-Spotify-1ED760?style=flat&logo=spotify&logoColor=white&labelColor=121212" alt="Recently played on Spotify" />
+          </a>
+        </p>
+        <h3 align="center" style="margin: 0 0 4px 0; color: #ffffff; font-size: 20px; font-weight: 800; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">NEXT!</h3>
+        <p align="center" style="margin: 0 0 16px 0; color: #9ca3af; font-size: 14px; font-weight: 500;">NCTS</p>
+        <p align="center" style="margin: 0;">
+          <img src="https://raw.githubusercontent.com/afifasyed123/afifasyed123/main/assets/spotify-album-art.jpg" width="250" height="250" style="border-radius: 10px; display: block;" alt="Album Cover" />
+        </p>
+      </td>
+    </tr>
+  </table>
+  
+  <br/>
+
+  <a href="https://open.spotify.com" target="_blank">
+    <img src="https://img.shields.io/badge/SPOTIFY-FAV--OUR--ITE%20PLAYLIST%20(100%20TRACKS)-1ED760?style=for-the-badge&logo=spotify&logoColor=white&labelColor=18181b" alt="Spotify Playlist" />
   </a>
 </div>
 
@@ -362,7 +383,7 @@ const afifa = {
 
 ```yaml
 Competitive Programming & Algorithms:
-  - Codeforces Div 2/3 Contest Rounds & Upsolving
+  - Codeforces Contest Upsolving & Practice
   - Advanced Graph Theory, DP & Number Theory
   - LeetCode Daily Challenges & Biweekly Contests
   
@@ -394,7 +415,7 @@ Upcoming:
   - Open Source Contributions in Java & AI Tooling
   
 Milestones:
-  - Reach Candidate Master / Specialist on Codeforces
+  - Progress from Newbie to Pupil and Beyond on Codeforces
   - Build High-Throughput Enterprise Web Services
   - Collaborate with Engineering Teams Globally
 ```
@@ -418,7 +439,7 @@ Milestones:
 
 <p align="center">
   <a href="https://linkedin.com/in/afifa-syed-41a770260/">
-    <img src="https://img.shields.io/badge/LinkedIn-Afifa%20Syed-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=pink" />
+    <img src="https://img.shields.io/badge/LinkedIn-Afifa%20Syed-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" />
   </a>
   &nbsp;&nbsp;
   <a href="https://codeforces.com/profile/afifasyed06">
@@ -429,7 +450,7 @@ Milestones:
     <img src="https://img.shields.io/badge/LeetCode-afifasyedd-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://open.spotify.com/track/3KkXRkHbMCARz0aVfEt68P">
+  <a href="https://open.spotify.com">
     <img src="https://img.shields.io/badge/Spotify-Coding_Vibes-1ED760?style=for-the-badge&logo=spotify&logoColor=white&labelColor=121212" />
   </a>
   &nbsp;&nbsp;
