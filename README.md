@@ -1,20 +1,16 @@
 <!-- Animated Header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=280&section=header&text=Afifa%20Syed&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%20and%20Data%20Science%20Undergrad%20%7C%20Backend%20Engineer%20%7C%209.62%20CGPA&descAlignY=56&descAlign=50" width="100%" alt="Afifa Syed Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=280&section=header&text=Afifa%20Syed&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%20and%20Data%20Science%20Undergrad%20%7C%20Backend%20Engineer%20%7C%20Competitive%20Programmer%20%7C%209.62%20CGPA&descAlignY=56&descAlign=50" width="100%" alt="Afifa Syed Banner" />
 </p>
-
-
-
-
 
 <!-- Typing Animation -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=FF1493&center=true&vCenter=true&random=false&width=750&lines=Artificial+Intelligence+%26+Data+Science+Engineer+%F0%9F%A7%A0;Java+%26+Spring+Boot+Backend+Developer+%E2%9A%A1;9.62+CGPA+at+TSEC+Mumbai+%F0%9F%8E%93;DSA+Enthusiast+%26+LeetCode+Problem+Solver+%F0%9F%92%A1;Building+Scalable+%26+Intelligent+Web+Systems+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=FF1493&center=true&vCenter=true&random=false&width=750&lines=Artificial+Intelligence+%26+Data+Science+Engineer+%F0%9F%A7%A0;Java+%26+Spring+Boot+Backend+Developer+%E2%9A%A1;Competitive+Programmer+%26+Codeforces+Contender+%F0%9F%8F%86;9.62+CGPA+at+TSEC+Mumbai+%F0%9F%8E%93;DSA+Enthusiast+%26+LeetCode+Problem+Solver+%F0%9F%92%A1;Building+Scalable+%26+Intelligent+Web+Systems+%F0%9F%9A%80" alt="Typing SVG" />
 </div>
 
 <br/>
 
-<!-- Quick GitHub Stats Badges -->
+<!-- Quick GitHub & Social Stats Badges -->
 <div align="center">
   <a href="https://github.com/afifasyed123">
     <img src="https://komarev.com/ghpvc/?username=afifasyed123&color=ff1493&style=for-the-badge&label=Views" alt="Views" />
@@ -28,6 +24,14 @@
     <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github-star-counter.workers.dev/user/afifasyed123&query=$.stars&label=Stars&style=for-the-badge&color=ff1493&labelColor=000000&logo=github" alt="Total Stars" />
   </a>
   &nbsp;
+  <a href="https://codeforces.com/profile/afifasyed06">
+    <img src="https://img.shields.io/badge/Codeforces-afifasyed06-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white&labelColor=000000" alt="Codeforces" />
+  </a>
+  &nbsp;
+  <a href="https://leetcode.com/u/afifasyedd/">
+    <img src="https://img.shields.io/badge/LeetCode-afifasyedd-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=000000" alt="LeetCode" />
+  </a>
+  &nbsp;
   <a href="https://linkedin.com/in/afifa-syed-41a770260/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn" />
   </a>
@@ -36,11 +40,6 @@
     <img src="https://img.shields.io/badge/Portfolio-afifasyed.me-FF1493?style=for-the-badge&logo=sparkles&logoColor=white&labelColor=000000" alt="Portfolio" />
   </a>
 </div>
-
-<br/>
-
-<table align="center" border="0" cellspacing="0" cellpadding="0">
-</table>
 
 <br/>
 
@@ -61,10 +60,10 @@ const afifa = {
     },
     
     currentFocus: [
+        "Competitive Programming & Algorithmic Optimization (Codeforces & LeetCode)",
         "Scalable Backend Architectures in Java & Spring Boot",
-        "Machine Learning Pipelines, EDA & Statistical Modeling in Python",
-        "Algorithmic Problem Solving (Data Structures & Algorithms)",
-        "Enterprise Database Persistence & RESTful API Engineering"
+        "Machine Learning Pipelines, Computer Vision & Statistical Modeling in Python",
+        "Enterprise Database Persistence & High-Throughput RESTful APIs"
     ],
 
     academicHonors: [
@@ -75,18 +74,24 @@ const afifa = {
         "🌟 NPTEL Certified — Design Thinking: A Primer"
     ],
     
-    code: ["Java", "Python", "SQL", "C++", "C", "JavaScript", "HTML/CSS"],
+    code: ["Java", "Python", "C++", "TypeScript", "JavaScript", "SQL", "C", "HTML/CSS"],
+    
+    profiles: {
+        codeforces: "afifasyed06",
+        leetcode: "afifasyedd",
+        github: "afifasyed123"
+    },
     
     technologies: {
         backend: ["Spring Boot", "Spring Data JPA", "Hibernate", "Servlets & JSP", "JDBC", "REST APIs", "Maven"],
         aiAndDataScience: ["Scikit-Learn", "Pandas", "NumPy", "TensorFlow", "OpenCV", "Matplotlib", "Jupyter Notebook"],
         database: ["MySQL", "Relational Schema Design", "Query Optimization"],
-        frontend: ["HTML5", "CSS3", "JavaScript (ES6+)", "React.js", "Thymeleaf", "JSP"],
+        frontend: ["TypeScript", "JavaScript (ES6+)", "React.js", "Next.js", "Tailwind CSS", "HTML5", "CSS3", "Thymeleaf"],
         toolsAndPlatforms: ["Git", "GitHub", "IntelliJ IDEA", "VS Code", "Postman", "Linux", "Windows"]
     },
     
-    funFact: "I can design normalized SQL database schemas AND train predictive ML classifiers in the same sprint! 💖⚡",
-    askMeAbout: ["Spring Boot", "Java OOPs", "Machine Learning in Python", "DSA", "Relational Databases"],
+    funFact: "I solve Codeforces & LeetCode algorithmic puzzles while jamming to my curated Spotify coding playlist! 💖⚡🎧",
+    askMeAbout: ["Codeforces", "Competitive Programming", "Spring Boot", "Java OOPs", "Machine Learning in Python", "DSA", "Relational Databases"],
     challenge: "Building resilient, elegant, and high-performance software systems with clean architecture"
 };
 ```
@@ -95,9 +100,17 @@ const afifa = {
 
 ## 🏆 Featured Flagship Builds
 
-
 <table width="100%">
 <tr>
+<td width="50%" valign="top">
+
+### 🛡️ [SentinelX — Intelligent Security & Surveillance](https://github.com/afifasyed123/SentinelX)
+`TypeScript` • `Next.js` • `AI/ML` • `Computer Vision` • `Real-Time Monitoring`
+* Automated intelligent security surveillance and live threat detection platform.
+* Features real-time visual feeds analytics, event-driven anomaly detection, and modern responsive dashboard.
+* **[GitHub Repository](https://github.com/afifasyed123/SentinelX)**
+
+</td>
 <td width="50%" valign="top">
 
 ### 🗂️ [Task Management System](https://github.com/afifasyed123/Task-Management-System)
@@ -105,6 +118,16 @@ const afifa = {
 * Full-featured MVC enterprise task tracking application with complete CRUD lifecycle.
 * Implements dynamic priority scoring, deadline monitoring, and custom relational queries.
 * **[GitHub Repository](https://github.com/afifasyed123/Task-Management-System)**
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 💖 [Barbie World Portfolio](https://afifa-syed-portfolio.vercel.app/)
+`Next.js` • `TypeScript` • `Tailwind CSS` • `Framer Motion` • `Web Audio`
+* Multi-stage interactive portfolio experience featuring the Dreamhouse progression, dynamic sound FX, and Barbie aesthetics.
+* **[Live Demo](https://afifa-syed-portfolio.vercel.app/)** • **[GitHub Repository](https://github.com/afifasyed123/afifasyed123.github.io)**
 
 </td>
 <td width="50%" valign="top">
@@ -120,18 +143,20 @@ const afifa = {
 <tr>
 <td width="50%" valign="top">
 
-### 💖 [Barbie World Portfolio](https://afifa-syed-portfolio.vercel.app/)
-`Next.js` • `TypeScript` • `Tailwind CSS` • `Framer Motion` • `Web Audio`
-* Multi-stage interactive portfolio experience featuring the Dreamhouse progression, dynamic sound FX, and Barbie 2023 aesthetics.
-* **[Live Demo](https://afifa-syed-portfolio.vercel.app/)**
-
-</td>
-<td width="50%" valign="top">
-
 ### 🧠 [Predictive AI & Data Science Suite](https://github.com/afifasyed123)
 `Python` • `Scikit-Learn` • `Pandas` • `NumPy` • `Matplotlib` • `Jupyter`
 * Exploratory data analysis, feature engineering, and predictive classification workflows.
 * Focuses on statistical inference, high-accuracy training, and automated evaluation metrics.
+* **[GitHub Profile](https://github.com/afifasyed123)**
+
+</td>
+<td width="50%" valign="top">
+
+### 🛡️ [PRICEGUARD — Price Tracking & Intelligence](https://github.com/afifasyed123/PRICEGUARD)
+`Python` • `Streamlit` • `Web Scraping` • `Data Analytics`
+* Intelligent real-time price monitoring and historical analysis platform.
+* Dynamic price alerts, trend forecasting, and interactive Streamlit UI.
+* **[Live App](https://priceguard.streamlit.app/)** • **[GitHub Repository](https://github.com/afifasyed123/PRICEGUARD)**
 
 </td>
 </tr>
@@ -139,37 +164,45 @@ const afifa = {
 
 ---
 
-## 📊 LeetCode Journey & Problem Solving
+## 📊 Problem Solving & Competitive Programming Arena
 
-### 🎯 LeetCode Badges & Stats
 <div align="center">
-  <a href="https://leetcode.com/u/afifasyedd/">
-    <img src="https://img.shields.io/badge/LeetCode-afifasyedd-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+  <a href="https://codeforces.com/profile/afifasyed06">
+    <img src="https://img.shields.io/badge/Codeforces-afifasyed06-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces Profile" />
   </a>
   &nbsp;
   <a href="https://leetcode.com/u/afifasyedd/">
-    <img src="https://img.shields.io/badge/Problem%20Solving-Active-FF1493?style=for-the-badge&logo=codeforces&logoColor=white" alt="Active" />
+    <img src="https://img.shields.io/badge/LeetCode-afifasyedd-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode Profile" />
+  </a>
+  &nbsp;
+  <a href="https://codeforces.com/profile/afifasyed06">
+    <img src="https://img.shields.io/badge/CP-Active_Contender-FF1493?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces Active" />
   </a>
   &nbsp;
   <a href="https://leetcode.com/u/afifasyedd/">
-    <img src="https://img.shields.io/badge/Focus-DSA%20%26%20Algorithms-00D9FF?style=for-the-badge&logo=databricks&logoColor=white" alt="DSA" />
+    <img src="https://img.shields.io/badge/Focus-DSA_%26_Competitive_Programming-00D9FF?style=for-the-badge&logo=databricks&logoColor=white" alt="DSA Focus" />
   </a>
 </div>
 
 <br/>
 
-### 📈 Dynamic LeetCode Activity & Heatmap
+### 🏆 Codeforces & LeetCode Performance Cards
 <div align="center">
   <table align="center" border="0" cellspacing="0" cellpadding="0">
     <tr>
-      <td align="center" width="100%">
+      <td align="center" width="50%" valign="top">
+        <a href="https://codeforces.com/profile/afifasyed06">
+          <img src="https://codeforces-readme-stats.vercel.app/api/card?username=afifasyed06&theme=radical" alt="Codeforces Stats" width="100%" />
+        </a>
+      </td>
+      <td align="center" width="50%" valign="top">
         <a href="https://leetcode.com/u/afifasyedd/">
           <img src="https://leetcard.jacoblin.cool/afifasyedd?theme=unicorn&font=Syne&ext=activity" alt="LeetCode Stats" width="100%" />
         </a>
       </td>
     </tr>
-      <tr>
-      <td align="center" width="100%">
+    <tr>
+      <td align="center" colspan="2">
         <a href="https://leetcode.com/u/afifasyedd/">
           <img src="https://leetcard.jacoblin.cool/afifasyedd?theme=radical&font=Syne&ext=heatmap" alt="LeetCode Heatmap" width="100%" />
         </a>
@@ -179,8 +212,30 @@ const afifa = {
 </div>
 
 <p align="center">
-  <em>"Mastering algorithms one problem at a time — consistency turns complex data structures into second nature."</em> 💡
+  <em>"Mastering algorithms round by round — from Codeforces Div contests to LeetCode Daily Challenges, consistency turns complex logic into second nature."</em> 💡⚡
 </p>
+
+---
+
+## 🎵 Coding Soundtrack & Spotify Vibes
+
+<div align="center">
+  <a href="https://open.spotify.com/track/3KkXRkHbMCARz0aVfEt68P" target="_blank">
+    <img src="https://img.shields.io/badge/Spotify-Coding_Vibes_%26_Soundtrack-1ED760?style=for-the-badge&logo=spotify&logoColor=white&labelColor=121212" alt="Spotify Vibes" />
+  </a>
+  &nbsp;
+  <a href="https://afifasyed123.github.io/afifasyed123/player/" target="_blank">
+    <img src="https://img.shields.io/badge/Barbiecore_Music_Player-Open_Player_%E2%99%AA-FF1493?style=for-the-badge&logo=music&logoColor=white&labelColor=121212" alt="Retro Player" />
+  </a>
+</div>
+
+<br/>
+
+<div align="center">
+  <a href="https://afifasyed123.github.io/afifasyed123/player/" target="_blank">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&pause=1000&color=F472B6&background=18181B&center=true&vCenter=true&width=500&height=70&lines=%E2%96%B6%EF%B8%8F+Now+Playing%3A+Sunflower+%E2%99%A1;%E2%99%AA+%E2%94%80%E2%94%80%E2%94%80%E2%97%8F%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80+1%3A12+%2F+2%3A38;%E2%9C%A7+Click+to+listen+along+with+me+on+Spotify+%E2%9C%A7" alt="Sunflower Player" />
+  </a>
+</div>
 
 ---
 
@@ -204,7 +259,7 @@ const afifa = {
 
 <h3 align="center">🎨 Frontend & UI</h3>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,javascript,react,tailwind,bootstrap,vite&theme=dark&perline=7" />
+  <img src="https://skillicons.dev/icons?i=html,css,javascript,ts,react,nextjs,tailwind,bootstrap,vite&theme=dark&perline=5" />
 </p>
 
 </td>
@@ -295,13 +350,6 @@ const afifa = {
   </a>
 </p>
 
-<!-- Barbiecore Retro Music Player Widget -->
-<div align="center">
-  <a href="https://afifasyed123.github.io/afifasyed123/player/" target="_blank">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&pause=1000&color=F472B6&background=18181B&center=true&vCenter=true&width=450&height=70&lines=%E2%96%B6%EF%B8%8F+Now+Playing%3A+Sunflower+%E2%99%A1;%E2%99%AA+%E2%94%80%E2%94%80%E2%94%80%E2%97%8F%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80+1%3A12+%2F+2%3A38;%E2%9C%A7+Click+to+listen+along+with+me+%E2%9C%A7" alt="Sunflower Player" />
-  </a>
-</div>
-
 ---
 
 ## 🎯 Current Focus & Roadmap
@@ -313,19 +361,20 @@ const afifa = {
 <h3 align="center">🚀 Learning & Specialization Path</h3>
 
 ```yaml
+Competitive Programming & Algorithms:
+  - Codeforces Div 2/3 Contest Rounds & Upsolving
+  - Advanced Graph Theory, DP & Number Theory
+  - LeetCode Daily Challenges & Biweekly Contests
+  
 AI & Machine Learning:
-  - Deep Learning architectures (CNNs, Transformers)
-  - Statistical Modeling & Feature Optimization
+  - Deep Learning Architectures (CNNs, Transformers)
+  - Computer Vision & Real-Time Video Analytics
   - Model Deployment via FastAPI & Docker
   
 Backend & Distributed Systems:
   - Advanced Spring Security & JWT Authentication
   - Microservices Architecture & Event Messaging
   - High-Concurrency Database Optimization (MySQL)
-  
-Data Structures & Algorithms:
-  - Advanced Graph & Dynamic Programming Paradigms
-  - LeetCode Daily Challenges & Contest Preparation
 ```
 
 </td>
@@ -335,17 +384,18 @@ Data Structures & Algorithms:
 
 ```yaml
 In Progress:
+  - SentinelX AI Surveillance & Threat Intelligence
+  - Codeforces Rating Climb & Contest Consistency
   - Task Management System v2 (Security & REST APIs)
-  - End-to-End AI Predictive Pipeline in Python
   - Barbie World Interactive Portfolio Progression
   
 Upcoming:
   - Distributed Microservices Backend in Spring Boot
-  - Open Source Contributions in Java & AI tooling
+  - Open Source Contributions in Java & AI Tooling
   
 Milestones:
+  - Reach Candidate Master / Specialist on Codeforces
   - Build High-Throughput Enterprise Web Services
-  - Excel in Competitive Programming & Technical Hackathons
   - Collaborate with Engineering Teams Globally
 ```
 
@@ -371,8 +421,16 @@ Milestones:
     <img src="https://img.shields.io/badge/LinkedIn-Afifa%20Syed-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=pink" />
   </a>
   &nbsp;&nbsp;
+  <a href="https://codeforces.com/profile/afifasyed06">
+    <img src="https://img.shields.io/badge/Codeforces-afifasyed06-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white&labelColor=1F8ACB" />
+  </a>
+  &nbsp;&nbsp;
   <a href="https://leetcode.com/u/afifasyedd/">
     <img src="https://img.shields.io/badge/LeetCode-afifasyedd-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://open.spotify.com/track/3KkXRkHbMCARz0aVfEt68P">
+    <img src="https://img.shields.io/badge/Spotify-Coding_Vibes-1ED760?style=for-the-badge&logo=spotify&logoColor=white&labelColor=121212" />
   </a>
   &nbsp;&nbsp;
   <a href="mailto:afifasyed06@gmail.com">
@@ -402,7 +460,7 @@ Let's build something awesome together. Happy coding! 🎉
 
 **🌟 Made with 💖 by [Afifa Syed](https://github.com/afifasyed123) 🌟**
 
-*"Building scalable applications with clean code, structural logic, and a curiosity for intelligent systems."* 🌸✨
+*"Building scalable applications with clean code, structural logic, and a passion for competitive problem solving."* 🌸✨
 
 </div>
 
