@@ -74,7 +74,7 @@ const afifa = {
         "🌟 NPTEL Certified — Design Thinking: A Primer"
     ],
     
-    code: ["Java", "Python", "C++", "TypeScript", "JavaScript", "SQL", "C", "HTML/CSS"],
+    code: ["Java 21", "Python", "C++", "TypeScript", "JavaScript", "SQL", "Go", "HTML/CSS"],
     
     profiles: {
         codeforces: "afifasyed06",
@@ -83,16 +83,16 @@ const afifa = {
     },
     
     technologies: {
-        backend: ["Spring Boot", "Spring Data JPA", "Hibernate", "Servlets & JSP", "JDBC", "REST APIs", "Maven"],
-        aiAndDataScience: ["Scikit-Learn", "Pandas", "NumPy", "TensorFlow", "OpenCV", "Matplotlib", "Jupyter Notebook"],
-        database: ["MySQL", "Relational Schema Design", "Query Optimization"],
-        frontend: ["TypeScript", "JavaScript (ES6+)", "React.js", "Next.js", "Tailwind CSS", "HTML5", "CSS3", "Thymeleaf"],
-        toolsAndPlatforms: ["Git", "GitHub", "IntelliJ IDEA", "VS Code", "Postman", "Linux", "Windows"]
+        distributedBackend: ["Java 21", "Spring Boot 3.3", "Spring Cloud Gateway", "Spring Security", "Apache Kafka", "Redis 7", "gRPC", "Spring Data JPA", "Hibernate", "Flyway", "Maven"],
+        aiAndVectorSearch: ["Python (FastAPI)", "Qdrant (Vector DB)", "OpenSearch 2.x", "Scikit-Learn", "TensorFlow", "OpenCV", "Pandas", "NumPy"],
+        databaseAndCaching: ["PostgreSQL (PostGIS)", "MySQL", "Redis 7 (ZSET, SETNX Locks)", "Relational Schema Design"],
+        cloudDevopsAndObservability: ["Docker & Compose", "Kubernetes (Kustomize)", "GitHub Actions CI/CD", "Prometheus", "Grafana", "OpenTelemetry (OTel)", "Linux"],
+        frontend: ["Next.js 14", "React.js", "TypeScript", "Tailwind CSS", "HTML5", "CSS3", "Vite"]
     },
     
-    funFact: "I solve algorithmic puzzles on LeetCode & Codeforces while tuning into my coding soundtrack! 💖⚡🎧",
-    askMeAbout: ["Competitive Programming", "Codeforces", "LeetCode", "Spring Boot", "Java OOPs", "Machine Learning in Python", "DSA", "Relational Databases"],
-    challenge: "Building resilient, elegant, and high-performance software systems with clean architecture"
+    funFact: "I architect distributed microservices and solve algorithmic puzzles on LeetCode & Codeforces! 💖⚡🚀",
+    askMeAbout: ["Distributed Systems", "Apache Kafka & Redis", "Spring Boot & Java", "Competitive Programming", "Codeforces", "LeetCode", "Vector DB & RAG", "PostGIS"],
+    challenge: "Building resilient, tamper-evident, and ultra-low latency distributed systems with clean architecture"
 };
 ```
 
@@ -104,10 +104,10 @@ const afifa = {
 <tr>
 <td width="50%" valign="top">
 
-### 🛡️ [SentinelX — Intelligent Security & Surveillance](https://github.com/afifasyed123/SentinelX)
-`TypeScript` • `Next.js` • `AI/ML` • `Computer Vision` • `Real-Time Monitoring`
-* Automated intelligent security surveillance and live threat detection platform.
-* Features real-time visual feeds analytics, event-driven anomaly detection, and modern responsive dashboard.
+### 🛡️ [SentinelX — Distributed Emergency & Threat Management](https://github.com/afifasyed123/SentinelX)
+`Java 21` • `Spring Boot 3.3` • `Apache Kafka` • `Redis 7` • `PostgreSQL` • `Qdrant` • `OpenSearch` • `FastAPI` • `Next.js 14` • `Docker` • `Kubernetes`
+* Production-grade distributed incident & emergency management platform built on Database-per-Service microservices.
+* Features Kafka event backbone, Redis SETNX distributed locks & ZSET SLA engine, Qdrant vector search, gRPC RPC, and SHA-256 cryptographic audit ledger.
 * **[GitHub Repository](https://github.com/afifasyed123/SentinelX)**
 
 </td>
@@ -231,80 +231,78 @@ const afifa = {
 
 ---
 
-## 🎧 Soundtrack to My Code & Systems
-
-<div align="center">
-  <table border="0" cellspacing="0" cellpadding="0" style="background: transparent;">
-    <tr>
-      <td align="center" style="background: #0d1117; border: 1px solid #21262d; border-radius: 16px; padding: 22px; width: 330px;">
-        <p align="center" style="margin-bottom: 10px;">
-          <a href="https://open.spotify.com" target="_blank">
-            <img src="https://img.shields.io/badge/Recently%20played%20on-Spotify-1ED760?style=flat&logo=spotify&logoColor=white&labelColor=121212" alt="Recently played on Spotify" />
-          </a>
-        </p>
-        <h3 align="center" style="margin: 0 0 4px 0; color: #ffffff; font-size: 20px; font-weight: 800; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">NEXT!</h3>
-        <p align="center" style="margin: 0 0 16px 0; color: #9ca3af; font-size: 14px; font-weight: 500;">NCTS</p>
-        <p align="center" style="margin: 0;">
-          <img src="https://raw.githubusercontent.com/afifasyed123/afifasyed123/main/assets/spotify-album-art.jpg" width="250" height="250" style="border-radius: 10px; display: block;" alt="Album Cover" />
-        </p>
-      </td>
-    </tr>
-  </table>
-  
-  <br/>
-
-  <a href="https://open.spotify.com" target="_blank">
-    <img src="https://img.shields.io/badge/SPOTIFY-FAV--OUR--ITE%20PLAYLIST%20(100%20TRACKS)-1ED760?style=for-the-badge&logo=spotify&logoColor=white&labelColor=18181b" alt="Spotify Playlist" />
-  </a>
-</div>
-
----
-
 ## 🛠️ Tech Arsenal
 
 <table align="center" width="100%">
 <tr>
 <td width="50%" valign="top">
 
-<h3 align="center">🔮 Backend & Database</h3>
+<h3 align="center">⚡ Distributed Systems & Backend</h3>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,hibernate,mysql,postgres,nodejs,express&theme=dark&perline=7" />
+  <img src="https://skillicons.dev/icons?i=java,spring,kafka,redis,postgres,mysql,go,nodejs&theme=dark&perline=8" />
 </p>
 <div align="center">
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring_Boot_3.3-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" />
+  <br/>
+  <img src="https://img.shields.io/badge/Redis_7-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL_%26_PostGIS-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/gRPC-244c5a?style=for-the-badge&logo=grpc&logoColor=white" />
+  <br/>
+  <img src="https://img.shields.io/badge/Spring_Cloud_Gateway-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hibernate_%26_JPA-59666C?style=for-the-badge&logo=hibernate&logoColor=white" />
+  <img src="https://img.shields.io/badge/Flyway-CC0200?style=for-the-badge&logo=flyway&logoColor=white" />
 </div>
 
 <br/>
 
-<h3 align="center">🎨 Frontend & UI</h3>
+<h3 align="center">🎨 Frontend Engineering</h3>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,javascript,ts,react,nextjs,tailwind,bootstrap,vite&theme=dark&perline=5" />
+  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind,bootstrap,vite,html,css&theme=dark&perline=5" />
 </p>
+<div align="center">
+  <img src="https://img.shields.io/badge/Next.js_14-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+</div>
 
 </td>
 <td width="50%" valign="top">
 
-<h3 align="center">🤖 AI/ML & Data Science</h3>
+<h3 align="center">🤖 AI, ML & Vector Intelligence</h3>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,tensorflow,opencv,sklearn&theme=dark&perline=4" />
+  <img src="https://skillicons.dev/icons?i=python,fastapi,tensorflow,opencv,sklearn&theme=dark&perline=5" />
+</p>
+<div align="center">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Qdrant_Vector_DB-DC244C?style=for-the-badge&logo=qdrant&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenSearch_2.x-005EB8?style=for-the-badge&logo=opensearch&logoColor=white" />
   <br/>
   <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
   <br/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
 </div>
 
 <br/>
 
-<h3 align="center">🛠️ Tools & Environments</h3>
+<h3 align="center">☁️ Cloud, DevOps & Observability</h3>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,idea,vscode,postman,maven,linux,windows&theme=dark&perline=8" />
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,git,linux,postman,maven,idea&theme=dark&perline=8" />
 </p>
+<div align="center">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
+  <br/>
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenTelemetry-000000?style=for-the-badge&logo=opentelemetry&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+</div>
 
 </td>
 </tr>
@@ -448,10 +446,6 @@ Milestones:
   &nbsp;&nbsp;
   <a href="https://leetcode.com/u/afifasyedd/">
     <img src="https://img.shields.io/badge/LeetCode-afifasyedd-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://open.spotify.com">
-    <img src="https://img.shields.io/badge/Spotify-Coding_Vibes-1ED760?style=for-the-badge&logo=spotify&logoColor=white&labelColor=121212" />
   </a>
   &nbsp;&nbsp;
   <a href="mailto:afifasyed06@gmail.com">
